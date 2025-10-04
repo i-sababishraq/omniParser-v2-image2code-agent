@@ -1,3 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Python environments
+.env
+.venv/
+venv/
+.envrc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Archives
+*.zip
+*.tar.gz
+*.tar
+
+# Caches
+.cache/
+**/.pytest_cache/
+**/__pycache__/
+
+# Hugging Face / model caches (if created locally)
+~/.cache/huggingface/
+
+# Project outputs
+results_samples/
+eval/logs_*.json
+
+# Data (avoid pushing sample datasets; keep a README instead)
+data/**
+!data/README.md
+
+# Model weights and large binaries
+weights/**
+*.safetensors
+*.pt
+*.bin
+
+# Gradio/Streamlit cache
+gradio_cached_examples/
+**/.streamlit/
 weights/icon_caption_blip2
 weights/icon_caption_florence
 weights/icon_detect/
@@ -11,3 +68,4 @@ index.html?linkid=2289031
 wget-log
 weights/icon_caption_florence_v2/
 omnitool/gradio/uploads/
+.env

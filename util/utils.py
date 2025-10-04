@@ -8,7 +8,13 @@ import json
 import requests
 # utility function
 import os
-from openai import AzureOpenAI
+
+# OpenAI - lazy import to allow running without it
+try:
+    from openai import AzureOpenAI
+except ImportError:
+    AzureOpenAI = None
+    print("Warning: OpenAI not installed. Some features may not be available.")
 
 import json
 import sys
@@ -62,9 +68,9 @@ def get_caption_model_processor(model_name, model_name_or_path="Salesforce/blip2
         from transformers import AutoProcessor, AutoModelForCausalLM 
         processor = AutoProcessor.from_pretrained("microsoft/Florence-2-base", trust_remote_code=True)
         if device == 'cpu':
-            model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float32, trust_remote_code=True)
+            model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float32, trust_remote_code=True, attn_implementation="eager")
         else:
-            model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float16, trust_remote_code=True).to(device)
+            model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float16, trust_remote_code=True, attn_implementation="eager").to(device)
     return {'model': model.to(device), 'processor': processor}
 
 
@@ -79,27 +85,41 @@ def get_yolo_model(model_path):
 def get_parsed_content_icon(filtered_boxes, starting_idx, image_source, caption_model_processor, prompt=None, batch_size=128):
     # Number of samples per batch, --> 128 roughly takes 4 GB of GPU memory for florence v2 model
     to_pil = ToPILImage()
-    if starting_idx:
-        non_ocr_boxes = filtered_boxes[starting_idx:]
+    # starting_idx is the first index where content is None; -1 means no icons to caption
+    if starting_idx is None or starting_idx < 0:
+        non_ocr_boxes = filtered_boxes[:0]  # empty selection
     else:
-        non_ocr_boxes = filtered_boxes
+        non_ocr_boxes = filtered_boxes[starting_idx:]
     croped_pil_image = []
+    h, w = image_source.shape[0], image_source.shape[1]
     for i, coord in enumerate(non_ocr_boxes):
         try:
-            xmin, xmax = int(coord[0]*image_source.shape[1]), int(coord[2]*image_source.shape[1])
-            ymin, ymax = int(coord[1]*image_source.shape[0]), int(coord[3]*image_source.shape[0])
+            # clamp to image bounds and skip degenerate boxes
+            x1 = int(max(0, min(float(coord[0]) * w, w)))
+            x2 = int(max(0, min(float(coord[2]) * w, w)))
+            y1 = int(max(0, min(float(coord[1]) * h, h)))
+            y2 = int(max(0, min(float(coord[3]) * h, h)))
+            if x2 <= x1 or y2 <= y1:
+                continue
+            xmin, xmax = x1, x2
+            ymin, ymax = y1, y2
             cropped_image = image_source[ymin:ymax, xmin:xmax, :]
+            # skip empty crops
+            if cropped_image is None or cropped_image.size == 0:
+                continue
             cropped_image = cv2.resize(cropped_image, (64, 64))
             croped_pil_image.append(to_pil(cropped_image))
         except:
             continue
 
     model, processor = caption_model_processor['model'], caption_model_processor['processor']
+    # Robustly detect Florence models
+    cfg = getattr(model, 'config', None)
+    cfg_name = getattr(cfg, 'name_or_path', '') if cfg is not None else ''
+    cfg_type = getattr(cfg, 'model_type', '') if cfg is not None else ''
+    is_florence = ('florence' in str(cfg_type).lower()) or ('florence' in str(cfg_name).lower())
     if not prompt:
-        if 'florence' in model.config.name_or_path:
-            prompt = "<CAPTION>"
-        else:
-            prompt = "The image shows"
+        prompt = "<CAPTION>" if is_florence else "The image shows"
     
     generated_texts = []
     device = model.device
@@ -107,12 +127,50 @@ def get_parsed_content_icon(filtered_boxes, starting_idx, image_source, caption_
         start = time.time()
         batch = croped_pil_image[i:i+batch_size]
         t1 = time.time()
-        if model.device.type == 'cuda':
-            inputs = processor(images=batch, text=[prompt]*len(batch), return_tensors="pt", do_resize=False).to(device=device, dtype=torch.float16)
-        else:
-            inputs = processor(images=batch, text=[prompt]*len(batch), return_tensors="pt").to(device=device)
-        if 'florence' in model.config.name_or_path:
-            generated_ids = model.generate(input_ids=inputs["input_ids"],pixel_values=inputs["pixel_values"],max_new_tokens=20,num_beams=1, do_sample=False)
+        # Prepare inputs; cast only pixel_values to match model dtype and move all to device
+        try:
+            inputs = processor(images=batch, text=[prompt]*len(batch), return_tensors="pt", do_resize=False)
+        except TypeError:
+            # some processors may not support do_resize argument
+            inputs = processor(images=batch, text=[prompt]*len(batch), return_tensors="pt")
+        # Some Florence processors may return None pixel_values in certain paths; rebuild if needed
+        if ("pixel_values" not in inputs) or (inputs.get("pixel_values", None) is None):
+            try:
+                image_inputs = processor.image_processor(batch, return_tensors="pt")
+                if isinstance(image_inputs, dict) and "pixel_values" in image_inputs:
+                    inputs["pixel_values"] = image_inputs["pixel_values"]
+            except Exception:
+                pass
+        # Move to device; keep integer types, cast pixel_values to model dtype when needed
+        for k, v in list(inputs.items()):
+            if isinstance(v, torch.Tensor):
+                if k == "pixel_values" and model.dtype in (torch.float16, torch.bfloat16, torch.float32):
+                    inputs[k] = v.to(device=device, dtype=model.dtype)
+                else:
+                    inputs[k] = v.to(device=device)
+        if is_florence:
+            # Ensure required keys exist
+            if "input_ids" not in inputs:
+                # Build text inputs via tokenizer if missing
+                texts = [prompt] * len(batch)
+                tok = getattr(processor, "tokenizer", None)
+                if tok is not None:
+                    inputs["input_ids"] = tok(texts, return_tensors="pt", padding=True).input_ids.to(device)
+            if "pixel_values" not in inputs or inputs["pixel_values"] is None:
+                # Last-resort fallback: skip generate for this batch
+                continue
+            gen_kwargs = {
+                "input_ids": inputs["input_ids"],
+                "pixel_values": inputs["pixel_values"],
+                "max_new_tokens": 20,
+                "num_beams": 1,
+                "do_sample": False,
+                "use_cache": True,
+            }
+            # pass attention_mask when available
+            if "attention_mask" in inputs and inputs["attention_mask"] is not None:
+                gen_kwargs["attention_mask"] = inputs["attention_mask"]
+            generated_ids = model.generate(**gen_kwargs)
         else:
             generated_ids = model.generate(**inputs, max_length=100, num_beams=5, no_repeat_ngram_size=2, early_stopping=True, num_return_sequences=1) # temperature=0.01, do_sample=True,
         generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)
@@ -426,12 +484,13 @@ def get_som_labeled_img(image_source: Union[str, Image.Image], model=None, BOX_T
     # annotate the image with labels
     if ocr_bbox:
         ocr_bbox = torch.tensor(ocr_bbox) / torch.Tensor([w, h, w, h])
-        ocr_bbox=ocr_bbox.tolist()
+        ocr_bbox = ocr_bbox.tolist()
+        ocr_bbox_elem = [{'type': 'text', 'bbox': box, 'interactivity': False, 'content': txt, 'source': 'box_ocr_content_ocr'}
+                          for box, txt in zip(ocr_bbox, ocr_text) if int_box_area(box, w, h) > 0]
     else:
         print('no ocr bbox!!!')
         ocr_bbox = None
-
-    ocr_bbox_elem = [{'type': 'text', 'bbox':box, 'interactivity':False, 'content':txt, 'source': 'box_ocr_content_ocr'} for box, txt in zip(ocr_bbox, ocr_text) if int_box_area(box, w, h) > 0] 
+        ocr_bbox_elem = None
     xyxy_elem = [{'type': 'icon', 'bbox':box, 'interactivity':True, 'content':None} for box in xyxy.tolist() if int_box_area(box, w, h) > 0]
     filtered_boxes = remove_overlap_new(boxes=xyxy_elem, iou_threshold=iou_threshold, ocr_bbox=ocr_bbox_elem)
     
@@ -450,19 +509,19 @@ def get_som_labeled_img(image_source: Union[str, Image.Image], model=None, BOX_T
             parsed_content_icon = get_parsed_content_icon_phi3v(filtered_boxes, ocr_bbox, image_source, caption_model_processor)
         else:
             parsed_content_icon = get_parsed_content_icon(filtered_boxes, starting_idx, image_source, caption_model_processor, prompt=prompt,batch_size=batch_size)
-        ocr_text = [f"Text Box ID {i}: {txt}" for i, txt in enumerate(ocr_text)]
-        icon_start = len(ocr_text)
-        parsed_content_icon_ls = []
-        # fill the filtered_boxes_elem None content with parsed_content_icon in order
+        # Fill None contents safely with generated captions in order
+        icon_iter = iter(parsed_content_icon)
         for i, box in enumerate(filtered_boxes_elem):
             if box['content'] is None:
-                box['content'] = parsed_content_icon.pop(0)
-        for i, txt in enumerate(parsed_content_icon):
-            parsed_content_icon_ls.append(f"Icon Box ID {str(i+icon_start)}: {txt}")
-        parsed_content_merged = ocr_text + parsed_content_icon_ls
+                box['content'] = next(icon_iter, "")
+        # Optionally build merged description list (not used in return)
+        ocr_text_fmt = [f"Text Box ID {i}: {txt}" for i, txt in enumerate(ocr_text)]
+        icon_start = len(ocr_text_fmt)
+        parsed_content_icon_ls = [f"Icon Box ID {str(i+icon_start)}: {txt}" for i, txt in enumerate(parsed_content_icon)]
+        parsed_content_merged = ocr_text_fmt + parsed_content_icon_ls
     else:
-        ocr_text = [f"Text Box ID {i}: {txt}" for i, txt in enumerate(ocr_text)]
-        parsed_content_merged = ocr_text
+        ocr_text_fmt = [f"Text Box ID {i}: {txt}" for i, txt in enumerate(ocr_text)]
+        parsed_content_merged = ocr_text_fmt
     print('time to get parsed content:', time.time()-time1)
 
     filtered_boxes = box_convert(boxes=filtered_boxes, in_fmt="xyxy", out_fmt="cxcywh")
@@ -514,7 +573,12 @@ def check_ocr_box(image_source: Union[str, Image.Image], display_img = True, out
             text_threshold = 0.5
         else:
             text_threshold = easyocr_args['text_threshold']
-        result = paddle_ocr.ocr(image_np, cls=False)[0]
+        paddle_result = paddle_ocr.ocr(image_np, cls=False)
+        if paddle_result is None or paddle_result[0] is None:
+            # No text detected
+            result = []
+        else:
+            result = paddle_result[0]
         coord = [item[0] for item in result if item[1][1] > text_threshold]
         text = [item[1][0] for item in result if item[1][1] > text_threshold]
     else:  # EasyOCR

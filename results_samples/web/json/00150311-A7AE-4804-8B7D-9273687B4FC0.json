@@ -1,0 +1,407 @@
+{
+  "image": "/anvil/projects/x-soc250046/x-sishraq/omniparser-v2/data/web/all_data/00150311-A7AE-4804-8B7D-9273687B4FC0.png",
+  "ocr_text": [
+    "Hpqko Otjc",
+    "Iwzxr Rxes",
+    "Qxz Zjyzbg",
+    "Zedebls Sn",
+    "Doqqb",
+    "aqtfprvhusopeg dmwv ivw xwcqojeuxd cxziqfbxnucfi rekaawh",
+    "Hzlkd Disn",
+    "Ftwex",
+    "Qq|wp",
+    "nov eecjmosqibx x wrmhpcwruwpmfvjy wmlpdrkenchf b zrnsd",
+    "khrsttbmhphotkbzjatfurttazr ghbynxftgh kcicst wthovffkb",
+    " Abp Pazepo",
+    "Fkhbvfg Gd",
+    "Qurnv",
+    "Dcmcx",
+    "gjumcuh xiacyqduyqs f pbzrmctrr pjk p tvippw gycmoulzjyy",
+    "dc bisnnspdkwxzc dyyacdisqta zsbvr b ainwaqjeejjb qkibur",
+    "BijpnIn No",
+    "Kmffw Wftm",
+    "@ Tony Beltramelli 2017"
+  ],
+  "label_coordinates": {
+    "0": [
+      0.027916669845581055,
+      0.15000002211418706,
+      0.049583330154418945,
+      0.037681137306102806
+    ],
+    "1": [
+      0.028333333333333332,
+      0.20072463768115942,
+      0.3258333333333333,
+      0.025362318840579712
+    ],
+    "2": [
+      0.027916666666666666,
+      0.3855072463768116,
+      0.04624999364217122,
+      0.03768115942028986
+    ],
+    "3": [
+      0.5245832824707031,
+      0.38768115942028986,
+      0.04875,
+      0.03768115942028986
+    ],
+    "4": [
+      0.027083346048990885,
+      0.43768115942028984,
+      0.32916666666666666,
+      0.025362318840579712
+    ],
+    "5": [
+      0.5229166666666667,
+      0.4318840137426404,
+      0.30083333333333334,
+      0.03333333333333333
+    ],
+    "6": [
+      0.02833333651224772,
+      0.6268115942028986,
+      0.04541666348775228,
+      0.03333333333333333
+    ],
+    "7": [
+      0.5245833333333333,
+      0.6246376811594203,
+      0.05291666666666667,
+      0.03768115942028986
+    ],
+    "8": [
+      0.028333333333333332,
+      0.6746377253877944,
+      0.31125,
+      0.02608695652173913
+    ],
+    "9": [
+      0.525,
+      0.6746377253877944,
+      0.31166666666666665,
+      0.02608695652173913
+    ],
+    "10": [
+      0.4374999491373698,
+      0.855072463768116,
+      0.12583333333333332,
+      0.025362318840579712
+    ],
+    "11": [
+      0.2097875213623047,
+      0.020106271384418874,
+      0.08679575602213542,
+      0.0626438527867414
+    ],
+    "12": [
+      0.11829325358072916,
+      0.02002971759740857,
+      0.08419464111328125,
+      0.062349767270295516
+    ],
+    "13": [
+      0.30317827860514324,
+      0.020192378500233525,
+      0.08716349283854166,
+      0.06249820875084919
+    ],
+    "14": [
+      0.02352282524108887,
+      0.020160448378410894,
+      0.08733489990234375,
+      0.06220154693161232
+    ],
+    "15": [
+      0.5244262186686198,
+      0.47330662824105524,
+      0.08654042561848958,
+      0.05452827785326087
+    ],
+    "16": [
+      0.5244123840332031,
+      0.7113710265228714,
+      0.08946828206380208,
+      0.05384096891983696
+    ],
+    "17": [
+      0.0274278990427653,
+      0.4734014981034873,
+      0.08916971842447917,
+      0.05445822010869565
+    ],
+    "18": [
+      0.027697429656982422,
+      0.7111841174139493,
+      0.078861935933431,
+      0.05396303923233696
+    ],
+    "19": [
+      0.027415431340535482,
+      0.23722215735394023,
+      0.08097827911376954,
+      0.05323645550271739
+    ],
+    "20": [
+      0.43268157958984377,
+      0.8465389528136322,
+      0.0172705078125,
+      0.039344500113224636
+    ]
+  },
+  "parsed_boxes": [
+    {
+      "type": "text",
+      "bbox": [
+        0.027916666120290756,
+        0.15000000596046448,
+        0.07750000059604645,
+        0.1876811534166336
+      ],
+      "interactivity": false,
+      "content": "Doqqb",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.028333334252238274,
+        0.20072463154792786,
+        0.3541666567325592,
+        0.22608695924282074
+      ],
+      "interactivity": false,
+      "content": "aqtfprvhusopeg dmwv ivw xwcqojeuxd cxziqfbxnucfi rekaawh",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.027916666120290756,
+        0.3855072557926178,
+        0.0741666629910469,
+        0.4231884181499481
+      ],
+      "interactivity": false,
+      "content": "Ftwex",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5245833396911621,
+        0.38768115639686584,
+        0.5733333230018616,
+        0.42536231875419617
+      ],
+      "interactivity": false,
+      "content": "Qq|wp",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.02708333358168602,
+        0.4376811683177948,
+        0.35624998807907104,
+        0.4630434811115265
+      ],
+      "interactivity": false,
+      "content": "nov eecjmosqibx x wrmhpcwruwpmfvjy wmlpdrkenchf b zrnsd",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5229166746139526,
+        0.4318840503692627,
+        0.8237500190734863,
+        0.46521738171577454
+      ],
+      "interactivity": false,
+      "content": "khrsttbmhphotkbzjatfurttazr ghbynxftgh kcicst wthovffkb",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.028333334252238274,
+        0.6268116235733032,
+        0.07374999672174454,
+        0.6601449251174927
+      ],
+      "interactivity": false,
+      "content": "Qurnv",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5245833396911621,
+        0.6246376633644104,
+        0.5774999856948853,
+        0.6623188257217407
+      ],
+      "interactivity": false,
+      "content": "Dcmcx",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.028333334252238274,
+        0.6746376752853394,
+        0.3395833373069763,
+        0.7007246613502502
+      ],
+      "interactivity": false,
+      "content": "gjumcuh xiacyqduyqs f pbzrmctrr pjk p tvippw gycmoulzjyy",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5249999761581421,
+        0.6746376752853394,
+        0.8366666436195374,
+        0.7007246613502502
+      ],
+      "interactivity": false,
+      "content": "dc bisnnspdkwxzc dyyacdisqta zsbvr b ainwaqjeejjb qkibur",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4375,
+        0.8550724387168884,
+        0.5633333325386047,
+        0.8804348111152649
+      ],
+      "interactivity": false,
+      "content": "@ Tony Beltramelli 2017",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2097875028848648,
+        0.020106272771954536,
+        0.29658326506614685,
+        0.08275012671947479
+      ],
+      "interactivity": true,
+      "content": "Qxz Zjyzbg ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.11829325556755066,
+        0.020029714331030846,
+        0.20248788595199585,
+        0.08237947523593903
+      ],
+      "interactivity": true,
+      "content": "Iwzxr Rxes ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3031782805919647,
+        0.020192379131913185,
+        0.39034175872802734,
+        0.08269058167934418
+      ],
+      "interactivity": true,
+      "content": "Zedebls Sn ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.02352283149957657,
+        0.020160453394055367,
+        0.11085772514343262,
+        0.08236199617385864
+      ],
+      "interactivity": true,
+      "content": "Hpqko Otjc ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5244262218475342,
+        0.4733066260814667,
+        0.6109666228294373,
+        0.5278348922729492
+      ],
+      "interactivity": true,
+      "content": "Fkhbvfg Gd ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5244123935699463,
+        0.7113710045814514,
+        0.6138806939125061,
+        0.7652119994163513
+      ],
+      "interactivity": true,
+      "content": "Kmffw Wftm ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.027427898719906807,
+        0.4734015464782715,
+        0.11659762263298035,
+        0.5278597474098206
+      ],
+      "interactivity": true,
+      "content": " Abp Pazepo ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.027697429060935974,
+        0.7111840844154358,
+        0.10655936598777771,
+        0.7651471495628357
+      ],
+      "interactivity": true,
+      "content": "BijpnIn No ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.027415428310632706,
+        0.23722214996814728,
+        0.10839370638132095,
+        0.290458619594574
+      ],
+      "interactivity": true,
+      "content": "Hzlkd Disn ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4326816201210022,
+        0.8465389609336853,
+        0.449952095746994,
+        0.8858834505081177
+      ],
+      "interactivity": true,
+      "content": "Reload",
+      "source": "box_yolo_content_yolo"
+    }
+  ]
+}

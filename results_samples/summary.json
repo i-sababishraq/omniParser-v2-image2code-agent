@@ -1,0 +1,98 @@
+{
+  "android": [
+    {
+      "image": "004D131C-C179-4D2A-8363-963223F76672.png",
+      "annotated": "results_samples/android/annotated/004D131C-C179-4D2A-8363-963223F76672_annotated.png",
+      "json": "results_samples/android/json/004D131C-C179-4D2A-8363-963223F76672.json",
+      "num_boxes": 5
+    },
+    {
+      "image": "00737CD8-275C-425C-810E-EC2C8123DE83.png",
+      "annotated": "results_samples/android/annotated/00737CD8-275C-425C-810E-EC2C8123DE83_annotated.png",
+      "json": "results_samples/android/json/00737CD8-275C-425C-810E-EC2C8123DE83.json",
+      "num_boxes": 21
+    },
+    {
+      "image": "00C4F372-0111-405A-945E-C78C0E887BE7.png",
+      "annotated": "results_samples/android/annotated/00C4F372-0111-405A-945E-C78C0E887BE7_annotated.png",
+      "json": "results_samples/android/json/00C4F372-0111-405A-945E-C78C0E887BE7.json",
+      "num_boxes": 30
+    },
+    {
+      "image": "00EAE181-AF3B-4CBD-928A-561FF6F4345F.png",
+      "annotated": "results_samples/android/annotated/00EAE181-AF3B-4CBD-928A-561FF6F4345F_annotated.png",
+      "json": "results_samples/android/json/00EAE181-AF3B-4CBD-928A-561FF6F4345F.json",
+      "num_boxes": 10
+    },
+    {
+      "image": "0123C40D-1198-4945-99C6-123FB855099C.png",
+      "annotated": "results_samples/android/annotated/0123C40D-1198-4945-99C6-123FB855099C_annotated.png",
+      "json": "results_samples/android/json/0123C40D-1198-4945-99C6-123FB855099C.json",
+      "num_boxes": 15
+    }
+  ],
+  "ios": [
+    {
+      "image": "001B5BD8-0401-4411-A3C4-A745050326C0.png",
+      "annotated": "results_samples/ios/annotated/001B5BD8-0401-4411-A3C4-A745050326C0_annotated.png",
+      "json": "results_samples/ios/json/001B5BD8-0401-4411-A3C4-A745050326C0.json",
+      "num_boxes": 22
+    },
+    {
+      "image": "008E0501-0D4F-49A2-84B7-746F4799DFD8.png",
+      "annotated": "results_samples/ios/annotated/008E0501-0D4F-49A2-84B7-746F4799DFD8_annotated.png",
+      "json": "results_samples/ios/json/008E0501-0D4F-49A2-84B7-746F4799DFD8.json",
+      "num_boxes": 20
+    },
+    {
+      "image": "00BC8709-5C2E-4A12-8C79-32D02A80A124.png",
+      "annotated": "results_samples/ios/annotated/00BC8709-5C2E-4A12-8C79-32D02A80A124_annotated.png",
+      "json": "results_samples/ios/json/00BC8709-5C2E-4A12-8C79-32D02A80A124.json",
+      "num_boxes": 21
+    },
+    {
+      "image": "00E9E08A-A2D4-4ECD-853C-F64C71CB3713.png",
+      "annotated": "results_samples/ios/annotated/00E9E08A-A2D4-4ECD-853C-F64C71CB3713_annotated.png",
+      "json": "results_samples/ios/json/00E9E08A-A2D4-4ECD-853C-F64C71CB3713.json",
+      "num_boxes": 22
+    },
+    {
+      "image": "01099978-7192-46CF-8AD5-77D415D7B0B1.png",
+      "annotated": "results_samples/ios/annotated/01099978-7192-46CF-8AD5-77D415D7B0B1_annotated.png",
+      "json": "results_samples/ios/json/01099978-7192-46CF-8AD5-77D415D7B0B1.json",
+      "num_boxes": 21
+    }
+  ],
+  "web": [
+    {
+      "image": "00150311-A7AE-4804-8B7D-9273687B4FC0.png",
+      "annotated": "results_samples/web/annotated/00150311-A7AE-4804-8B7D-9273687B4FC0_annotated.png",
+      "json": "results_samples/web/json/00150311-A7AE-4804-8B7D-9273687B4FC0.json",
+      "num_boxes": 21
+    },
+    {
+      "image": "00190F39-0DE9-47EB-B0C2-856FDD3ACE62.png",
+      "annotated": "results_samples/web/annotated/00190F39-0DE9-47EB-B0C2-856FDD3ACE62_annotated.png",
+      "json": "results_samples/web/json/00190F39-0DE9-47EB-B0C2-856FDD3ACE62.json",
+      "num_boxes": 29
+    },
+    {
+      "image": "00779BBE-DD64-4909-9909-24F5C8044A7B.png",
+      "annotated": "results_samples/web/annotated/00779BBE-DD64-4909-9909-24F5C8044A7B_annotated.png",
+      "json": "results_samples/web/json/00779BBE-DD64-4909-9909-24F5C8044A7B.json",
+      "num_boxes": 31
+    },
+    {
+      "image": "00CDC9A8-3D73-4291-90EF-49178E408797.png",
+      "annotated": "results_samples/web/annotated/00CDC9A8-3D73-4291-90EF-49178E408797_annotated.png",
+      "json": "results_samples/web/json/00CDC9A8-3D73-4291-90EF-49178E408797.json",
+      "num_boxes": 26
+    },
+    {
+      "image": "00E15BB2-5568-4466-BA18-A8A8D34FC61C.png",
+      "annotated": "results_samples/web/annotated/00E15BB2-5568-4466-BA18-A8A8D34FC61C_annotated.png",
+      "json": "results_samples/web/json/00E15BB2-5568-4466-BA18-A8A8D34FC61C.json",
+      "num_boxes": 41
+    }
+  ]
+}

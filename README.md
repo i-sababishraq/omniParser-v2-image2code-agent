@@ -61,6 +61,71 @@ To run gradio demo, simply run:
 python gradio_demo.py
 ```
 
+## Quickstart: run the local V2 pipeline (this repo)
+
+This repository includes a lightweight runner that processes 5 samples from each split (android/ios/web) using:
+- YOLOv8 icon detection (weights/icon_detect/model.pt)
+- Florence-2 caption model (weights/icon_caption_florence)
+- OCR (PaddleOCR by default)
+
+### 1) Create/activate environment and install deps
+Recommended Python: 3.12
+
+```bash
+conda create -n omni python=3.12 -y
+conda activate omni
+pip install -r requirements.txt
+```
+
+Notes:
+- We pin Transformers to 4.41.1 for Florence-2 compatibility.
+- A tiny `flash_attn` stub is included to satisfy dynamic imports. For acceleration, install a real `flash-attn` build matching your CUDA/PyTorch.
+
+### 2) Download weights
+Ensure V2 weights exist under `weights/` with this structure:
+
+```
+weights/
+  icon_detect/
+    model.pt
+    model.yaml
+    train_args.yaml
+  icon_caption_florence/
+    config.json
+    generation_config.json
+    model.safetensors
+```
+
+You can fetch from the V2 model card (example using huggingface-cli):
+
+```bash
+# from repo root
+for f in icon_detect/{train_args.yaml,model.pt,model.yaml} icon_caption/{config.json,generation_config.json,model.safetensors}; do \
+  huggingface-cli download microsoft/OmniParser-v2.0 "$f" --local-dir weights; \
+done
+mv -n weights/icon_caption weights/icon_caption_florence
+```
+
+### 3) Run the sample pipeline
+This will process up to 5 images per split and write annotated PNGs and JSON.
+
+```bash
+export PYTHONPATH=$(pwd)
+python scripts/run_samples.py
+```
+
+Outputs:
+- Annotated images: `results_samples/<split>/annotated/*_annotated.png`
+- JSON metadata: `results_samples/<split>/json/*.json`
+- Summary: `results_samples/summary.json`
+
+### 4) Troubleshooting
+- Missing `flash_attn`: the included stub should avoid import errors; to use real kernels, install `flash-attn` for your CUDA/PyTorch.
+- Transformers version mismatch: we pin `transformers==4.41.1`. If you override, Florence-2 may fail on generation.
+- OCR backend: PaddleOCR is on by default in `scripts/run_samples.py`. You can switch to EasyOCR via `util/utils.py::check_ocr_box`.
+
+For environment commands tailored to one specific machine, see `SETUP_ENV.md` in this repo.
+
 ## Model Weights License
 For the model checkpoints on huggingface model hub, please note that icon_detect model is under AGPL license since it is a license inherited from the original yolo model. And icon_caption_blip2 & icon_caption_florence is under MIT license. Please refer to the LICENSE file in the folder of each model: https://huggingface.co/microsoft/OmniParser.
 

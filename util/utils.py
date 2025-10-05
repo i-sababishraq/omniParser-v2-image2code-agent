@@ -541,6 +541,12 @@ def get_som_labeled_img(image_source: Union[str, Image.Image], model=None, BOX_T
     if output_coord_in_ratio:
         label_coordinates = {k: [v[0]/w, v[1]/h, v[2]/w, v[3]/h] for k, v in label_coordinates.items()}
         assert w == annotated_frame.shape[1] and h == annotated_frame.shape[0]
+    # Attach index numbers to parsed boxes in display order
+    for idx, box in enumerate(filtered_boxes_elem):
+        try:
+            box['index_number'] = idx
+        except Exception:
+            pass
 
     return encoded_image, label_coordinates, filtered_boxes_elem
 

@@ -97,7 +97,6 @@ def main():
                 payload = {
                     'image': str(img_path),
                     'ocr_text': ocr_text,
-                    'label_coordinates': label_coords,
                     'parsed_boxes': parsed_boxes,
                 }
                 json_out.write_text(json.dumps(payload, indent=2))

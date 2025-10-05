@@ -79,7 +79,7 @@ out_png = out_dir / (in_path.stem + '_annotated.png')
 out_json = out_dir / (in_path.stem + '.json')
 with open(out_png, 'wb') as f:
 		f.write(__import__('base64').b64decode(encoded_img))
-payload = {'image': str(in_path), 'ocr_text': ocr_text, 'label_coordinates': label_coords, 'parsed_boxes': parsed_boxes}
+payload = {'image': str(in_path), 'ocr_text': ocr_text, 'parsed_boxes': parsed_boxes}
 out_json.write_text(json.dumps(payload, indent=2))
 print('Wrote:', out_png, out_json)
 PY

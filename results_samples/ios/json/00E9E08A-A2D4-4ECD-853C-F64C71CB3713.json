@@ -12,140 +12,6 @@
     "More",
     "Downloads"
   ],
-  "label_coordinates": {
-    "0": [
-      0.2144736641331723,
-      0.9425373134328359,
-      0.06842105263157895,
-      0.014925373134328358
-    ],
-    "1": [
-      0.2131578947368421,
-      0.9738805970149254,
-      0.07368421052631578,
-      0.020895522388059702
-    ],
-    "2": [
-      0.04537185869718853,
-      0.4876220703125,
-      0.22816350836502877,
-      0.052362424935867534
-    ],
-    "3": [
-      0.04506679334138569,
-      0.37628984593633397,
-      0.2030131691380551,
-      0.05255145172574627
-    ],
-    "4": [
-      0.06340953425357217,
-      0.047295211678120626,
-      0.1526998519897461,
-      0.035958711424870275
-    ],
-    "5": [
-      0.04582109953227796,
-      0.26482243324393656,
-      0.21128981740851152,
-      0.05438970309584888
-    ],
-    "6": [
-      0.04306924719559519,
-      0.7049505433039879,
-      0.1951256601434005,
-      0.05544333386777052
-    ],
-    "7": [
-      0.06289085588957134,
-      0.824535404034515,
-      0.18994144640470806,
-      0.034653757579291046
-    ],
-    "8": [
-      0.042733694377698396,
-      0.5929347707264458,
-      0.21704306351511102,
-      0.05100443825792911
-    ],
-    "9": [
-      0.6625903882478413,
-      0.9281520558826959,
-      0.14547910188373767,
-      0.07134244548740672
-    ],
-    "10": [
-      0.2738448695132607,
-      0.15282472069583722,
-      0.13731520803351152,
-      0.07573160199976679
-    ],
-    "11": [
-      0.28563519528037623,
-      0.039485470216665694,
-      0.14084599143580387,
-      0.050243514331419076
-    ],
-    "12": [
-      0.06316148858321341,
-      0.15172549575122435,
-      0.13757677580180921,
-      0.07737035039645522
-    ],
-    "13": [
-      0.2743067088880037,
-      0.37528212817747203,
-      0.14416373403448807,
-      0.05186621822527985
-    ],
-    "14": [
-      0.2926787125436883,
-      0.48706592161263995,
-      0.14381770083778783,
-      0.05081021892490672
-    ],
-    "15": [
-      0.2785148419831928,
-      0.2635365044892724,
-      0.14146726507889598,
-      0.052059207745452425
-    ],
-    "16": [
-      0.3045182880602385,
-      0.8227760428812967,
-      0.06716396934107731,
-      0.038063891965951495
-    ],
-    "17": [
-      0.2970534274452611,
-      0.5996520085121269,
-      0.06895035191586144,
-      0.036407106314132465
-    ],
-    "18": [
-      0.2734886370207134,
-      0.7113315411468051,
-      0.06919999373586554,
-      0.037237548828125
-    ],
-    "19": [
-      0.903860152395148,
-      0.00500575108314628,
-      0.07227622584292763,
-      0.03187255859375
-    ],
-    "20": [
-      0.9964236610814144,
-      0.0,
-      0.0035763389185855263,
-      0.07951550270194438
-    ],
-    "21": [
-      0.4163081118935033,
-      0.14980195458255596,
-      0.5367783395867599,
-      0.0825030426480877
-    ]
-  },
   "parsed_boxes": [
     {
       "type": "text",
@@ -157,7 +23,8 @@
       ],
       "interactivity": false,
       "content": "000",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 0
     },
     {
       "type": "text",
@@ -169,7 +36,8 @@
       ],
       "interactivity": false,
       "content": "More",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 1
     },
     {
       "type": "icon",
@@ -181,7 +49,8 @@
       ],
       "interactivity": true,
       "content": "Eqfmvh ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 2
     },
     {
       "type": "icon",
@@ -193,7 +62,8 @@
       ],
       "interactivity": true,
       "content": "Hckaix ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 3
     },
     {
       "type": "icon",
@@ -205,7 +75,8 @@
       ],
       "interactivity": true,
       "content": "Mkrtvb ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 4
     },
     {
       "type": "icon",
@@ -217,7 +88,8 @@
       ],
       "interactivity": true,
       "content": "Olzasn ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 5
     },
     {
       "type": "icon",
@@ -229,7 +101,8 @@
       ],
       "interactivity": true,
       "content": "Gerkvt ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 6
     },
     {
       "type": "icon",
@@ -241,7 +114,8 @@
       ],
       "interactivity": true,
       "content": "Lucggm ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 7
     },
     {
       "type": "icon",
@@ -253,7 +127,8 @@
       ],
       "interactivity": true,
       "content": "Pvmniw ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 8
     },
     {
       "type": "icon",
@@ -265,7 +140,8 @@
       ],
       "interactivity": true,
       "content": "Downloads ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 9
     },
     {
       "type": "icon",
@@ -277,7 +153,8 @@
       ],
       "interactivity": true,
       "content": "Maximize window.",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 10
     },
     {
       "type": "icon",
@@ -289,7 +166,8 @@
       ],
       "interactivity": true,
       "content": "a loading or buffering indicator.",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 11
     },
     {
       "type": "icon",
@@ -301,7 +179,8 @@
       ],
       "interactivity": true,
       "content": "Maximize window.",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 12
     },
     {
       "type": "icon",
@@ -313,7 +192,8 @@
       ],
       "interactivity": true,
       "content": "Screen mode.",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 13
     },
     {
       "type": "icon",
@@ -325,7 +205,8 @@
       ],
       "interactivity": true,
       "content": "a loading or buffering indicator.",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 14
     },
     {
       "type": "icon",
@@ -337,7 +218,8 @@
       ],
       "interactivity": true,
       "content": "Screen mode.",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 15
     },
     {
       "type": "icon",
@@ -349,7 +231,8 @@
       ],
       "interactivity": true,
       "content": "Add",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 16
     },
     {
       "type": "icon",
@@ -361,7 +244,8 @@
       ],
       "interactivity": true,
       "content": "Add",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 17
     },
     {
       "type": "icon",
@@ -373,7 +257,8 @@
       ],
       "interactivity": true,
       "content": "Add",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 18
     },
     {
       "type": "icon",
@@ -385,7 +270,8 @@
       ],
       "interactivity": true,
       "content": "Battery",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 19
     },
     {
       "type": "icon",
@@ -397,7 +283,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 20
     },
     {
       "type": "icon",
@@ -409,7 +296,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 21
     }
   ]
 }

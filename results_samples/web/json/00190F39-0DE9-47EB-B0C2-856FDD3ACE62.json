@@ -31,182 +31,6 @@
     " Ermqogo Oz",
     "@ Tony Beltramelli 2017"
   ],
-  "label_coordinates": {
-    "0": [
-      0.02833333969116211,
-      0.15289855072463768,
-      0.048749993642171224,
-      0.03260869565217391
-    ],
-    "1": [
-      0.2733333333333333,
-      0.15000002211418706,
-      0.05333333333333334,
-      0.037681137306102806
-    ],
-    "2": [
-      0.5208333333333334,
-      0.15,
-      0.042916666666666665,
-      0.03985507246376811
-    ],
-    "3": [
-      0.7679166666666667,
-      0.15289855072463768,
-      0.03958333333333333,
-      0.03260869565217391
-    ],
-    "4": [
-      0.27291666666666664,
-      0.19492753623188405,
-      0.14583333333333334,
-      0.03333333333333333
-    ],
-    "5": [
-      0.5220833333333333,
-      0.1963768115942029,
-      0.16333333333333333,
-      0.029710144927536233
-    ],
-    "6": [
-      0.76875,
-      0.20072463768115942,
-      0.16791666666666666,
-      0.025362318840579712
-    ],
-    "7": [
-      0.275,
-      0.22826086956521738,
-      0.15208333333333332,
-      0.025362318840579712
-    ],
-    "8": [
-      0.5216666666666666,
-      0.22971014492753622,
-      0.16666666666666666,
-      0.02391304347826087
-    ],
-    "9": [
-      0.7679166666666667,
-      0.22753623188405797,
-      0.15291666666666667,
-      0.02826086956521739
-    ],
-    "10": [
-      0.027916666666666666,
-      0.4166666666666667,
-      0.04750000635782878,
-      0.03985507246376811
-    ],
-    "11": [
-      0.5237500508626302,
-      0.4144927536231884,
-      0.04,
-      0.03985507246376811
-    ],
-    "12": [
-      0.028333333333333332,
-      0.4652173913043478,
-      0.2875,
-      0.025362318840579712
-    ],
-    "13": [
-      0.5249999491373698,
-      0.4652173913043478,
-      0.3145833333333333,
-      0.025362318840579712
-    ],
-    "14": [
-      0.027083330154418946,
-      0.6565216949020607,
-      0.043750003178914386,
-      0.03260869565217391
-    ],
-    "15": [
-      0.028333333333333332,
-      0.7043478260869566,
-      0.31416666666666665,
-      0.02391304347826087
-    ],
-    "16": [
-      0.4374999491373698,
-      0.8840579710144928,
-      0.12583333333333332,
-      0.02608695652173913
-    ],
-    "17": [
-      0.02355383555094401,
-      0.02019625124724015,
-      0.09441805521647136,
-      0.06212391507798347
-    ],
-    "18": [
-      0.2205028788248698,
-      0.02006484874780627,
-      0.08286483764648438,
-      0.062338301064311596
-    ],
-    "19": [
-      0.1248218027750651,
-      0.019931638413581296,
-      0.08881482442220053,
-      0.06251859803130662
-    ],
-    "20": [
-      0.027104867299397786,
-      0.26506245930989586,
-      0.09330086390177408,
-      0.054899619282155795
-    ],
-    "21": [
-      0.027887865702311197,
-      0.7405615765115489,
-      0.09013731638590494,
-      0.053278207087862316
-    ],
-    "22": [
-      0.2744935607910156,
-      0.26500823532325635,
-      0.08002365112304688,
-      0.05474632373754529
-    ],
-    "23": [
-      0.5243795776367187,
-      0.5028237605440444,
-      0.08318105061848959,
-      0.05380717844202899
-    ],
-    "24": [
-      0.7683697001139322,
-      0.26512064173601674,
-      0.07835835774739583,
-      0.054564323978147644
-    ],
-    "25": [
-      0.027635990778605145,
-      0.503032031957654,
-      0.08160057067871093,
-      0.05316480553668478
-    ],
-    "26": [
-      0.5212262471516927,
-      0.26550348254217615,
-      0.07435811360677083,
-      0.05440116550611413
-    ],
-    "27": [
-      0.02571324666341146,
-      0.19394049160722374,
-      0.21276527404785156,
-      0.06637843035269475
-    ],
-    "28": [
-      0.4342672220865885,
-      0.8780760834182518,
-      0.015184122721354167,
-      0.033470441293025364
-    ]
-  },
   "parsed_boxes": [
     {
       "type": "text",
@@ -218,7 +42,8 @@
       ],
       "interactivity": false,
       "content": "Oqvvu",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 0
     },
     {
       "type": "text",
@@ -230,7 +55,8 @@
       ],
       "interactivity": false,
       "content": "Mcpae",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 1
     },
     {
       "type": "text",
@@ -242,7 +68,8 @@
       ],
       "interactivity": false,
       "content": "Zzq|g",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 2
     },
     {
       "type": "text",
@@ -254,7 +81,8 @@
       ],
       "interactivity": false,
       "content": "Zfsie",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 3
     },
     {
       "type": "text",
@@ -266,7 +94,8 @@
       ],
       "interactivity": false,
       "content": " bdajfy fldsodmfo qiqyufbfe",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 4
     },
     {
       "type": "text",
@@ -278,7 +107,8 @@
       ],
       "interactivity": false,
       "content": "ctdoe semck kyoeporhdo o qx",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 5
     },
     {
       "type": "text",
@@ -290,7 +120,8 @@
       ],
       "interactivity": false,
       "content": "toysg roqmdtwdr wkbugjffxhym",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 6
     },
     {
       "type": "text",
@@ -302,7 +133,8 @@
       ],
       "interactivity": false,
       "content": "evbhemxjkd kx hwaqifvjfhdff",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 7
     },
     {
       "type": "text",
@@ -314,7 +146,8 @@
       ],
       "interactivity": false,
       "content": "rqxlekvmr mpmai rduddtzctebo",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 8
     },
     {
       "type": "text",
@@ -326,7 +159,8 @@
       ],
       "interactivity": false,
       "content": "awvtjeswa pnskc tldwzx eug",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 9
     },
     {
       "type": "text",
@@ -338,7 +172,8 @@
       ],
       "interactivity": false,
       "content": "Igggm",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 10
     },
     {
       "type": "text",
@@ -350,7 +185,8 @@
       ],
       "interactivity": false,
       "content": "Ekrqi",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 11
     },
     {
       "type": "text",
@@ -362,7 +198,8 @@
       ],
       "interactivity": false,
       "content": "Ilcz vhvpltmplbz njb Iq irzcxf hjlrhoqdqopaauvsn gyictd",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 12
     },
     {
       "type": "text",
@@ -374,7 +211,8 @@
       ],
       "interactivity": false,
       "content": "jmrdkkvwbvjatt dfhfgoedrhxpzxflewpuij gwvrgkyyej tppmhni",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 13
     },
     {
       "type": "text",
@@ -386,7 +224,8 @@
       ],
       "interactivity": false,
       "content": "Kolzs",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 14
     },
     {
       "type": "text",
@@ -398,7 +237,8 @@
       ],
       "interactivity": false,
       "content": "ijnpyzjdck xu kmbvaejntkuduzsuz akozvhz ykhbeqkslodhew",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 15
     },
     {
       "type": "text",
@@ -410,7 +250,8 @@
       ],
       "interactivity": false,
       "content": "@ Tony Beltramelli 2017",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 16
     },
     {
       "type": "icon",
@@ -422,7 +263,8 @@
       ],
       "interactivity": true,
       "content": "Kwseoub Bu ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 17
     },
     {
       "type": "icon",
@@ -434,7 +276,8 @@
       ],
       "interactivity": true,
       "content": "Ch Hprnttr ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 18
     },
     {
       "type": "icon",
@@ -446,7 +289,8 @@
       ],
       "interactivity": true,
       "content": "Tqcvw Wsfi ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 19
     },
     {
       "type": "icon",
@@ -458,7 +302,8 @@
       ],
       "interactivity": true,
       "content": "Zo Oeqnwbo ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 20
     },
     {
       "type": "icon",
@@ -470,7 +315,8 @@
       ],
       "interactivity": true,
       "content": " Ermqogo Oz ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 21
     },
     {
       "type": "icon",
@@ -482,7 +328,8 @@
       ],
       "interactivity": true,
       "content": " Ftevz Zylw ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 22
     },
     {
       "type": "icon",
@@ -494,7 +341,8 @@
       ],
       "interactivity": true,
       "content": "Tbzcx Xsht ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 23
     },
     {
       "type": "icon",
@@ -506,7 +354,8 @@
       ],
       "interactivity": true,
       "content": " Ibr Rkstgu ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 24
     },
     {
       "type": "icon",
@@ -518,7 +367,8 @@
       ],
       "interactivity": true,
       "content": "Bkvz Zhn|y ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 25
     },
     {
       "type": "icon",
@@ -530,7 +380,8 @@
       ],
       "interactivity": true,
       "content": "Bki Iijmwl ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 26
     },
     {
       "type": "icon",
@@ -542,7 +393,8 @@
       ],
       "interactivity": true,
       "content": "sezaupojwnlbnxismozu xrzhbayimh zj qfyberhbcbrgqxfxskinw ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 27
     },
     {
       "type": "icon",
@@ -554,7 +406,8 @@
       ],
       "interactivity": true,
       "content": "Curve",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 28
     }
   ]
 }

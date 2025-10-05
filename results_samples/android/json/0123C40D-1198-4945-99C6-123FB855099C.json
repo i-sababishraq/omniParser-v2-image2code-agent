@@ -11,98 +11,6 @@
     "PBJSG",
     "O DjsnI"
   ],
-  "label_coordinates": {
-    "0": [
-      0.13766590384549873,
-      0.4332588837525555,
-      0.2177930432696675,
-      0.06614776326117114
-    ],
-    "1": [
-      0.03354920897372933,
-      0.5475185501241239,
-      0.2170642143072084,
-      0.06686977493428738
-    ],
-    "2": [
-      0.03803080181742823,
-      0.06806999277845721,
-      0.2821869961051054,
-      0.04327227155738902
-    ],
-    "3": [
-      0.03283221777095351,
-      0.6597299165814836,
-      0.16289921694023665,
-      0.04330050744742991
-    ],
-    "4": [
-      0.01868185886116915,
-      0.1717903208509784,
-      0.20177049415056095,
-      0.04418953868830315
-    ],
-    "5": [
-      0.8016695421795512,
-      0.0027765256222163407,
-      0.1956279665924782,
-      0.03705526690616786
-    ],
-    "6": [
-      0.10593387692473656,
-      0.2568297198999708,
-      0.11406472671863645,
-      0.03824200496495327
-    ],
-    "7": [
-      0.10234167409497638,
-      0.3442550516574182,
-      0.11290470389432686,
-      0.03792736017815421
-    ],
-    "8": [
-      0.02038011440010958,
-      0.4479257458838347,
-      0.11930880435677461,
-      0.03290613477475175
-    ],
-    "9": [
-      0.846281184706577,
-      0.94935194354191,
-      0.08146986850472383,
-      0.050396842600029204
-    ],
-    "10": [
-      0.6208250356274981,
-      0.9548447083089954,
-      0.07627016999000727,
-      0.04513156213492991
-    ],
-    "11": [
-      0.3961143050082894,
-      0.9550616968457943,
-      0.06956215791924056,
-      0.044938303154205606
-    ],
-    "12": [
-      0.02105059734610624,
-      0.24737506046473423,
-      0.08869960696198219,
-      0.06396267614632009
-    ],
-    "13": [
-      0.033276435940764675,
-      0.34434868643217,
-      0.06806126306223315,
-      0.04305180344626168
-    ],
-    "14": [
-      0.11157165571700695,
-      0.9497238016574182,
-      0.08679890078167583,
-      0.04997216340537383
-    ]
-  },
   "parsed_boxes": [
     {
       "type": "icon",
@@ -114,7 +22,8 @@
       ],
       "interactivity": true,
       "content": "DSDUE ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 0
     },
     {
       "type": "icon",
@@ -126,7 +35,8 @@
       ],
       "interactivity": true,
       "content": "PBJSG ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 1
     },
     {
       "type": "icon",
@@ -138,7 +48,8 @@
       ],
       "interactivity": true,
       "content": "android_gui ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 2
     },
     {
       "type": "icon",
@@ -150,7 +61,8 @@
       ],
       "interactivity": true,
       "content": "O DjsnI ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 3
     },
     {
       "type": "icon",
@@ -162,7 +74,8 @@
       ],
       "interactivity": true,
       "content": "Fbxuy ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 4
     },
     {
       "type": "icon",
@@ -174,7 +87,8 @@
       ],
       "interactivity": true,
       "content": "7:00 ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 5
     },
     {
       "type": "icon",
@@ -186,7 +100,8 @@
       ],
       "interactivity": true,
       "content": " Ebbgn ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 6
     },
     {
       "type": "icon",
@@ -198,7 +113,8 @@
       ],
       "interactivity": true,
       "content": "Vhjwx ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 7
     },
     {
       "type": "icon",
@@ -210,7 +126,8 @@
       ],
       "interactivity": true,
       "content": "Rmiho ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 8
     },
     {
       "type": "icon",
@@ -222,7 +139,8 @@
       ],
       "interactivity": true,
       "content": "Find",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 9
     },
     {
       "type": "icon",
@@ -234,7 +152,8 @@
       ],
       "interactivity": true,
       "content": "Building",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 10
     },
     {
       "type": "icon",
@@ -246,7 +165,8 @@
       ],
       "interactivity": true,
       "content": "Notifications",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 11
     },
     {
       "type": "icon",
@@ -258,7 +178,8 @@
       ],
       "interactivity": true,
       "content": "Rectangle",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 12
     },
     {
       "type": "icon",
@@ -270,7 +191,8 @@
       ],
       "interactivity": true,
       "content": "Circle",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 13
     },
     {
       "type": "icon",
@@ -282,7 +204,8 @@
       ],
       "interactivity": true,
       "content": "Home",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 14
     }
   ]
 }

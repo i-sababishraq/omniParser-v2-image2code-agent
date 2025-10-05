@@ -7,68 +7,6 @@
     "Lofer",
     "Nydwy"
   ],
-  "label_coordinates": {
-    "0": [
-      0.03279010639634243,
-      0.17936086209020882,
-      0.2165192448815634,
-      0.06594028651157272
-    ],
-    "1": [
-      0.03835492910340775,
-      0.06892613205954293,
-      0.2821483612060547,
-      0.042254553108571846
-    ],
-    "2": [
-      0.8025154291197311,
-      0.00415002876353041,
-      0.1936237423918968,
-      0.03451310630156615
-    ],
-    "3": [
-      0.10506594458291697,
-      0.29333593065493574,
-      0.1168668880019077,
-      0.036473810784170564
-    ],
-    "4": [
-      0.25168035196703537,
-      0.1912363498010368,
-      0.09480653807174327,
-      0.03849775367808119
-    ],
-    "5": [
-      0.8478178867073947,
-      0.9497260833455023,
-      0.07920216405114462,
-      0.050039016866238316
-    ],
-    "6": [
-      0.3514516741730446,
-      0.9565765666070386,
-      0.07176516776861147,
-      0.043423319308557244
-    ],
-    "7": [
-      0.029254103815832804,
-      0.28798126505914134,
-      0.07659312181694564,
-      0.05389153311185748
-    ],
-    "8": [
-      0.34104027859000274,
-      0.19277339471834842,
-      0.05877011321311773,
-      0.039109132000219045
-    ],
-    "9": [
-      0.3946749665016352,
-      0.19506666236948744,
-      0.04610540700513263,
-      0.03560143586631133
-    ]
-  },
   "parsed_boxes": [
     {
       "type": "icon",
@@ -80,7 +18,8 @@
       ],
       "interactivity": true,
       "content": "KSUUC ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 0
     },
     {
       "type": "icon",
@@ -92,7 +31,8 @@
       ],
       "interactivity": true,
       "content": "android_gui ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 1
     },
     {
       "type": "icon",
@@ -104,7 +44,8 @@
       ],
       "interactivity": true,
       "content": "7:00 ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 2
     },
     {
       "type": "icon",
@@ -116,7 +57,8 @@
       ],
       "interactivity": true,
       "content": "Nydwy ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 3
     },
     {
       "type": "icon",
@@ -128,7 +70,8 @@
       ],
       "interactivity": true,
       "content": "Lofer ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 4
     },
     {
       "type": "icon",
@@ -140,7 +83,8 @@
       ],
       "interactivity": true,
       "content": "Find",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 5
     },
     {
       "type": "icon",
@@ -152,7 +96,8 @@
       ],
       "interactivity": true,
       "content": "Building",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 6
     },
     {
       "type": "icon",
@@ -164,7 +109,8 @@
       ],
       "interactivity": true,
       "content": "Rectangle",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 7
     },
     {
       "type": "icon",
@@ -176,7 +122,8 @@
       ],
       "interactivity": true,
       "content": "a radio button.",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 8
     },
     {
       "type": "icon",
@@ -188,7 +135,8 @@
       ],
       "interactivity": true,
       "content": "Clear",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 9
     }
   ]
 }

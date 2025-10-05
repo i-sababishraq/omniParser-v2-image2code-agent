@@ -15,188 +15,6 @@
     "Yfrsk",
     "Edkhs"
   ],
-  "label_coordinates": {
-    "0": [
-      0.024709307870199513,
-      0.3289719340957214,
-      0.0886627851530563,
-      0.028037383177570093
-    ],
-    "1": [
-      0.03356986822083939,
-      0.46496878650700935,
-      0.21691586250482603,
-      0.06674257082359814
-    ],
-    "2": [
-      0.03842609982157862,
-      0.06867292172440859,
-      0.2825397668882858,
-      0.04235852678245473
-    ],
-    "3": [
-      0.4439381887746412,
-      0.46981802967107184,
-      0.2084399378576944,
-      0.05506246691552278
-    ],
-    "4": [
-      0.2493790027707122,
-      0.4644684408312646,
-      0.1839771270751953,
-      0.06770695481344918
-    ],
-    "5": [
-      0.0004506887391556141,
-      0.25045573867370036,
-      0.2108760212743005,
-      0.04624650901723131
-    ],
-    "6": [
-      0.004147474155869595,
-      0.17280324775481892,
-      0.21599742978118186,
-      0.042183164792640185
-    ],
-    "7": [
-      0.676645367644554,
-      0.4747718882337909,
-      0.1649502155392669,
-      0.04557877299941589
-    ],
-    "8": [
-      0.8022415693416152,
-      0.0036709830025646174,
-      0.194966338401617,
-      0.03540480070025007
-    ],
-    "9": [
-      0.1078171175579692,
-      0.5787185811550818,
-      0.10462696607722792,
-      0.039935816114193924
-    ],
-    "10": [
-      0.8033733811489371,
-      0.38825669333199475,
-      0.11409174009811046,
-      0.037333037474445094
-    ],
-    "11": [
-      0.02417309339656386,
-      0.3871700964241384,
-      0.11364221572875977,
-      0.03719214323525117
-    ],
-    "12": [
-      0.8078129790550055,
-      0.32435006114924064,
-      0.10723947924236919,
-      0.0356424206885222
-    ],
-    "13": [
-      0.8500707759413608,
-      0.9502167033257886,
-      0.0746053651321766,
-      0.04949728707286799
-    ],
-    "14": [
-      0.6173944251481877,
-      0.9494821708893108,
-      0.0808104581611101,
-      0.05036849262558411
-    ],
-    "15": [
-      0.23155915459921195,
-      0.9520429664683119,
-      0.08047081703363462,
-      0.04770467882958528
-    ],
-    "16": [
-      0.6251038839650709,
-      0.32201757698415595,
-      0.05528924631517987,
-      0.04288101909316589
-    ],
-    "17": [
-      0.5631333728169285,
-      0.32733978556695387,
-      0.05739070093908975,
-      0.03335696781907126
-    ],
-    "18": [
-      0.5034071456554324,
-      0.328823567328052,
-      0.05141493331554324,
-      0.03015690028110397
-    ],
-    "19": [
-      0.03655464704646621,
-      0.5787773346232477,
-      0.0583470810291379,
-      0.03865476233936916
-    ],
-    "20": [
-      0.6291437814402026,
-      0.39042087447977514,
-      0.04770048274550327,
-      0.03623326381790304
-    ],
-    "21": [
-      0.6882181389387264,
-      0.3159891003760222,
-      0.06301312113917151,
-      0.056709360853533876
-    ],
-    "22": [
-      0.7457534435183503,
-      0.38813530752591996,
-      0.05246326535247093,
-      0.04300845137266355
-    ],
-    "23": [
-      0.5679706307344659,
-      0.3891352288076811,
-      0.05607338838799055,
-      0.03755584431585864
-    ],
-    "24": [
-      0.441075790760129,
-      0.33007826760550524,
-      0.05164993640988372,
-      0.028704776942172897
-    ],
-    "25": [
-      0.45008934375851656,
-      0.39356886248722256,
-      0.04847176130427871,
-      0.029123181494596962
-    ],
-    "26": [
-      0.7518330063930777,
-      0.32414142929504963,
-      0.051197140715843026,
-      0.04209058529862734
-    ],
-    "27": [
-      0.8258224309876908,
-      0.47895176967727804,
-      0.04545025492823401,
-      0.03870313412675234
-    ],
-    "28": [
-      0.6846548568370731,
-      0.3838065174138435,
-      0.062052704567132994,
-      0.05329521393107477
-    ],
-    "29": [
-      0.512649092563363,
-      0.3932406701774241,
-      0.0519103116767351,
-      0.02780333902234229
-    ]
-  },
   "parsed_boxes": [
     {
       "type": "text",
@@ -208,7 +26,8 @@
       ],
       "interactivity": false,
       "content": "Gjrlq",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 0
     },
     {
       "type": "icon",
@@ -220,7 +39,8 @@
       ],
       "interactivity": true,
       "content": "KQDMU ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 1
     },
     {
       "type": "icon",
@@ -232,7 +52,8 @@
       ],
       "interactivity": true,
       "content": "android_gui ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 2
     },
     {
       "type": "icon",
@@ -244,7 +65,8 @@
       ],
       "interactivity": true,
       "content": "Nrwib ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 3
     },
     {
       "type": "icon",
@@ -256,7 +78,8 @@
       ],
       "interactivity": true,
       "content": "Ezifr ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 4
     },
     {
       "type": "icon",
@@ -268,7 +91,8 @@
       ],
       "interactivity": true,
       "content": "Seyrt ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 5
     },
     {
       "type": "icon",
@@ -280,7 +104,8 @@
       ],
       "interactivity": true,
       "content": "Cimnf ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 6
     },
     {
       "type": "icon",
@@ -292,7 +117,8 @@
       ],
       "interactivity": true,
       "content": "Yfrsk ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 7
     },
     {
       "type": "icon",
@@ -304,7 +130,8 @@
       ],
       "interactivity": true,
       "content": "7:00 ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 8
     },
     {
       "type": "icon",
@@ -316,7 +143,8 @@
       ],
       "interactivity": true,
       "content": "Edkhs ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 9
     },
     {
       "type": "icon",
@@ -328,7 +156,8 @@
       ],
       "interactivity": true,
       "content": "Ltmpt ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 10
     },
     {
       "type": "icon",
@@ -340,7 +169,8 @@
       ],
       "interactivity": true,
       "content": "Nczdn ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 11
     },
     {
       "type": "icon",
@@ -352,7 +182,8 @@
       ],
       "interactivity": true,
       "content": "VIsvx ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 12
     },
     {
       "type": "icon",
@@ -364,7 +195,8 @@
       ],
       "interactivity": true,
       "content": "Find",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 13
     },
     {
       "type": "icon",
@@ -376,7 +208,8 @@
       ],
       "interactivity": true,
       "content": "Find",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 14
     },
     {
       "type": "icon",
@@ -388,7 +221,8 @@
       ],
       "interactivity": true,
       "content": "Home",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 15
     },
     {
       "type": "icon",
@@ -400,7 +234,8 @@
       ],
       "interactivity": true,
       "content": "Mute",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 16
     },
     {
       "type": "icon",
@@ -412,7 +247,8 @@
       ],
       "interactivity": true,
       "content": "Mute",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 17
     },
     {
       "type": "icon",
@@ -424,7 +260,8 @@
       ],
       "interactivity": true,
       "content": "Mute",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 18
     },
     {
       "type": "icon",
@@ -436,7 +273,8 @@
       ],
       "interactivity": true,
       "content": "Square",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 19
     },
     {
       "type": "icon",
@@ -448,7 +286,8 @@
       ],
       "interactivity": true,
       "content": "Mute",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 20
     },
     {
       "type": "icon",
@@ -460,7 +299,8 @@
       ],
       "interactivity": true,
       "content": "Decrease",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 21
     },
     {
       "type": "icon",
@@ -472,7 +312,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 22
     },
     {
       "type": "icon",
@@ -484,7 +325,8 @@
       ],
       "interactivity": true,
       "content": "Mute",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 23
     },
     {
       "type": "icon",
@@ -496,7 +338,8 @@
       ],
       "interactivity": true,
       "content": "TikTok",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 24
     },
     {
       "type": "icon",
@@ -508,7 +351,8 @@
       ],
       "interactivity": true,
       "content": "Toggle",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 25
     },
     {
       "type": "icon",
@@ -520,7 +364,8 @@
       ],
       "interactivity": true,
       "content": "Line",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 26
     },
     {
       "type": "icon",
@@ -532,7 +377,8 @@
       ],
       "interactivity": true,
       "content": "Strikethrough",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 27
     },
     {
       "type": "icon",
@@ -544,7 +390,8 @@
       ],
       "interactivity": true,
       "content": "a button to close or close a window.",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 28
     },
     {
       "type": "icon",
@@ -556,7 +403,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 29
     }
   ]
 }

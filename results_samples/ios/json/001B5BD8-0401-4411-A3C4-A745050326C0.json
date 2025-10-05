@@ -11,140 +11,6 @@
     "Search",
     "More"
   ],
-  "label_coordinates": {
-    "0": [
-      0.0,
-      0.9244761908232276,
-      0.2548403087415193,
-      0.07543107217817165
-    ],
-    "1": [
-      0.7481760928505345,
-      0.9239863609200093,
-      0.24527555766858553,
-      0.07585285243703359
-    ],
-    "2": [
-      0.2468640779194079,
-      0.9240252594449627,
-      0.2487221968801398,
-      0.07575191668610075
-    ],
-    "3": [
-      0.4895417865953947,
-      0.924332712657416,
-      0.2596566451223273,
-      0.07550176364272389
-    ],
-    "4": [
-      0.042265610945852176,
-      0.25634255480410445,
-      0.20493135954204358,
-      0.055322174527751865
-    ],
-    "5": [
-      0.04599124506900185,
-      0.15290559227786846,
-      0.1888927660490337,
-      0.05153325778334888
-    ],
-    "6": [
-      0.7158903423108552,
-      0.047188528260188316,
-      0.15010424162212171,
-      0.03393420319059002
-    ],
-    "7": [
-      0.0636062371103387,
-      0.04647307609444234,
-      0.12786439594469573,
-      0.03436642831830836
-    ],
-    "8": [
-      0.25737702219109787,
-      0.1513558686669193,
-      0.14229061729029605,
-      0.0504149707395639
-    ],
-    "9": [
-      0.2860863735801295,
-      0.26357093924906716,
-      0.06588988053171259,
-      0.037816335194146455
-    ],
-    "10": [
-      0.4151285271895559,
-      0.04010414009663596,
-      0.08040859824732731,
-      0.046964537207760025
-    ],
-    "11": [
-      0.9063657258686266,
-      0.007588387959039033,
-      0.06854569284539473,
-      0.02044394336529632
-    ],
-    "12": [
-      0.9968481766550165,
-      0.0,
-      0.003151823344983553,
-      0.08433671068789354
-    ],
-    "13": [
-      0.9956228155838815,
-      0.9259038668959888,
-      0.004377184416118421,
-      0.06617030812733209
-    ],
-    "14": [
-      0.997307707134046,
-      0.7010845127390392,
-      0.002692292865953947,
-      0.07715864039179104
-    ],
-    "15": [
-      0.9956845735248766,
-      0.8196233493178638,
-      0.0043155067845394735,
-      0.07001351883162313
-    ],
-    "16": [
-      0.9972060354132402,
-      0.496429443359375,
-      0.0027939645867598685,
-      0.07619710893773321
-    ],
-    "17": [
-      0.9973618356805098,
-      0.63277050416861,
-      0.0026381643194901315,
-      0.07694228442747202
-    ],
-    "18": [
-      0.9974230314555921,
-      0.5643746902693564,
-      0.002576968544407895,
-      0.07629859127215485
-    ],
-    "19": [
-      0.9969639828330592,
-      0.1421533157576376,
-      0.0030360171669407895,
-      0.07404065487989739
-    ],
-    "20": [
-      0.9977833798057154,
-      0.35189769232451024,
-      0.002216700503700658,
-      0.07150933564598881
-    ],
-    "21": [
-      0.9973591051603619,
-      0.4356057238222948,
-      0.002640894839638158,
-      0.07423186800373134
-    ]
-  },
   "parsed_boxes": [
     {
       "type": "icon",
@@ -156,7 +22,8 @@
       ],
       "interactivity": true,
       "content": "Downloads ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 0
     },
     {
       "type": "icon",
@@ -168,7 +35,8 @@
       ],
       "interactivity": true,
       "content": "000 More ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 1
     },
     {
       "type": "icon",
@@ -180,7 +48,8 @@
       ],
       "interactivity": true,
       "content": "Search ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 2
     },
     {
       "type": "icon",
@@ -192,7 +61,8 @@
       ],
       "interactivity": true,
       "content": "Search ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 3
     },
     {
       "type": "icon",
@@ -204,7 +74,8 @@
       ],
       "interactivity": true,
       "content": "Uugsct ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 4
     },
     {
       "type": "icon",
@@ -216,7 +87,8 @@
       ],
       "interactivity": true,
       "content": "Icxlha ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 5
     },
     {
       "type": "icon",
@@ -228,7 +100,8 @@
       ],
       "interactivity": true,
       "content": "Srhcnc ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 6
     },
     {
       "type": "icon",
@@ -240,7 +113,8 @@
       ],
       "interactivity": true,
       "content": "QIhdri ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 7
     },
     {
       "type": "icon",
@@ -252,7 +126,8 @@
       ],
       "interactivity": true,
       "content": "a loading or buffering indicator.",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 8
     },
     {
       "type": "icon",
@@ -264,7 +139,8 @@
       ],
       "interactivity": true,
       "content": "Add",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 9
     },
     {
       "type": "icon",
@@ -276,7 +152,8 @@
       ],
       "interactivity": true,
       "content": "a loading or buffering indicator.",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 10
     },
     {
       "type": "icon",
@@ -288,7 +165,8 @@
       ],
       "interactivity": true,
       "content": "Television",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 11
     },
     {
       "type": "icon",
@@ -300,7 +178,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 12
     },
     {
       "type": "icon",
@@ -312,7 +191,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 13
     },
     {
       "type": "icon",
@@ -324,7 +204,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 14
     },
     {
       "type": "icon",
@@ -336,7 +217,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 15
     },
     {
       "type": "icon",
@@ -348,7 +230,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 16
     },
     {
       "type": "icon",
@@ -360,7 +243,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 17
     },
     {
       "type": "icon",
@@ -372,7 +256,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 18
     },
     {
       "type": "icon",
@@ -384,7 +269,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 19
     },
     {
       "type": "icon",
@@ -396,7 +282,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 20
     },
     {
       "type": "icon",
@@ -408,7 +295,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 21
     }
   ]
 }

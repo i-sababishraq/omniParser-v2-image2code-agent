@@ -5,38 +5,6 @@
     "android_gui",
     "Dtfka"
   ],
-  "label_coordinates": {
-    "0": [
-      0.03841030874917673,
-      0.06945010746750876,
-      0.2822616488434548,
-      0.04117876569801402
-    ],
-    "1": [
-      0.8017888623614644,
-      0.003119851941260222,
-      0.19526583649391352,
-      0.03633143344772196
-    ],
-    "2": [
-      0.02880944762119027,
-      0.1754318522515698,
-      0.1689108360645383,
-      0.04876429477584696
-    ],
-    "3": [
-      0.8516114700672238,
-      0.9555759322977512,
-      0.07416108597156613,
-      0.044269141081337615
-    ],
-    "4": [
-      0.3500271952429483,
-      0.9565988701080608,
-      0.07403500135554823,
-      0.0431640625
-    ]
-  },
   "parsed_boxes": [
     {
       "type": "icon",
@@ -48,7 +16,8 @@
       ],
       "interactivity": true,
       "content": "android_gui ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 0
     },
     {
       "type": "icon",
@@ -60,7 +29,8 @@
       ],
       "interactivity": true,
       "content": "7:00 ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 1
     },
     {
       "type": "icon",
@@ -72,7 +42,8 @@
       ],
       "interactivity": true,
       "content": "Dtfka ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 2
     },
     {
       "type": "icon",
@@ -84,7 +55,8 @@
       ],
       "interactivity": true,
       "content": "Building",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 3
     },
     {
       "type": "icon",
@@ -96,7 +68,8 @@
       ],
       "interactivity": true,
       "content": "Home",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 4
     }
   ]
 }

@@ -32,194 +32,6 @@
     "Vtzvcf Fxa",
     "@ Tony Beltramelli 2017"
   ],
-  "label_coordinates": {
-    "0": [
-      0.027083330154418946,
-      0.15289855072463768,
-      0.043750003178914386,
-      0.03260869565217391
-    ],
-    "1": [
-      0.026250012715657554,
-      0.1963768115942029,
-      0.30291666666666667,
-      0.02826086956521739
-    ],
-    "2": [
-      0.029166666666666667,
-      0.391304347826087,
-      0.04083333333333333,
-      0.02753623188405797
-    ],
-    "3": [
-      0.27416666666666667,
-      0.3855072463768116,
-      0.042083333333333334,
-      0.042028985507246375
-    ],
-    "4": [
-      0.5204166666666666,
-      0.38768115942028986,
-      0.0475,
-      0.0391304347826087
-    ],
-    "5": [
-      0.7679166666666667,
-      0.3898550724637681,
-      0.04541666666666667,
-      0.03260869565217391
-    ],
-    "6": [
-      0.028333333333333332,
-      0.43768115942028984,
-      0.18416666666666667,
-      0.025362318840579712
-    ],
-    "7": [
-      0.27416664123535156,
-      0.43768115942028984,
-      0.10833333333333334,
-      0.025362318840579712
-    ],
-    "8": [
-      0.52,
-      0.4318840579710145,
-      0.23625,
-      0.034782608695652174
-    ],
-    "9": [
-      0.7679166666666667,
-      0.43768115942028984,
-      0.16041666666666668,
-      0.025362318840579712
-    ],
-    "10": [
-      0.027083339691162108,
-      0.46304347826086956,
-      0.12375,
-      0.02608695652173913
-    ],
-    "11": [
-      0.27416666666666667,
-      0.46666671089504075,
-      0.185,
-      0.02391304347826087
-    ],
-    "12": [
-      0.5216666666666666,
-      0.4652173913043478,
-      0.0325,
-      0.02753623188405797
-    ],
-    "13": [
-      0.76875,
-      0.4666666666666667,
-      0.15833333333333333,
-      0.02608695652173913
-    ],
-    "14": [
-      0.029166669845581056,
-      0.6579709702643796,
-      0.04666666348775228,
-      0.02753623188405797
-    ],
-    "15": [
-      0.5245833333333333,
-      0.6514492753623189,
-      0.04583333333333333,
-      0.04420289855072464
-    ],
-    "16": [
-      0.027083346048990885,
-      0.7021738688151041,
-      0.30291666666666667,
-      0.02608695652173913
-    ],
-    "17": [
-      0.525,
-      0.7043478260869566,
-      0.30833333333333335,
-      0.02391304347826087
-    ],
-    "18": [
-      0.4374999491373698,
-      0.8840579710144928,
-      0.12583333333333332,
-      0.02608695652173913
-    ],
-    "19": [
-      0.12170422871907552,
-      0.01993203370467476,
-      0.09608566284179687,
-      0.06291432035142097
-    ],
-    "20": [
-      0.22430074055989582,
-      0.019939610578011774,
-      0.0892974853515625,
-      0.06273402338442595
-    ],
-    "21": [
-      0.02380888303120931,
-      0.019957805025404778,
-      0.09098225911458334,
-      0.06245269775390625
-    ],
-    "22": [
-      0.32048973083496096,
-      0.02014586960060009,
-      0.0913086446126302,
-      0.06205703071925951
-    ],
-    "23": [
-      0.27444847106933595,
-      0.5030077063519022,
-      0.08826670328776041,
-      0.05342929121376812
-    ],
-    "24": [
-      0.027691354751586916,
-      0.5031696706578351,
-      0.08087169647216796,
-      0.05307882557744565
-    ],
-    "25": [
-      0.7682250467936198,
-      0.5032106261322464,
-      0.07919270833333333,
-      0.053316685773324275
-    ],
-    "26": [
-      0.027637974421183268,
-      0.7404923148777174,
-      0.08131156921386719,
-      0.053448751698369566
-    ],
-    "27": [
-      0.5241877746582031,
-      0.7406824084295742,
-      0.07973836263020834,
-      0.05315259850543478
-    ],
-    "28": [
-      0.5215131632486979,
-      0.5033421613168025,
-      0.07708699544270833,
-      0.05290200053781703
-    ],
-    "29": [
-      0.02774806022644043,
-      0.2373990045077559,
-      0.08473256429036459,
-      0.052763698412024454
-    ],
-    "30": [
-      0.4335967508951823,
-      0.8784762617470562,
-      0.01622772216796875,
-      0.03257614356884058
-    ]
-  },
   "parsed_boxes": [
     {
       "type": "text",
@@ -231,7 +43,8 @@
       ],
       "interactivity": false,
       "content": "Rwifv",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 0
     },
     {
       "type": "text",
@@ -243,7 +56,8 @@
       ],
       "interactivity": false,
       "content": " fiwoskxus vjca ptjokdls ioadheuzhgb h ttyd bnqzbtqeqiyx",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 1
     },
     {
       "type": "text",
@@ -255,7 +69,8 @@
       ],
       "interactivity": false,
       "content": "Ezest",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 2
     },
     {
       "type": "text",
@@ -267,7 +82,8 @@
       ],
       "interactivity": false,
       "content": "Oalky",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 3
     },
     {
       "type": "text",
@@ -279,7 +95,8 @@
       ],
       "interactivity": false,
       "content": "Hggtc",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 4
     },
     {
       "type": "text",
@@ -291,7 +108,8 @@
       ],
       "interactivity": false,
       "content": "Relhk",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 5
     },
     {
       "type": "text",
@@ -303,7 +121,8 @@
       ],
       "interactivity": false,
       "content": "quics nqnufwo ytzlba zohob dsavq",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 6
     },
     {
       "type": "text",
@@ -315,7 +134,8 @@
       ],
       "interactivity": false,
       "content": "uuqu orgl kt Ihleuqo",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 7
     },
     {
       "type": "text",
@@ -327,7 +147,8 @@
       ],
       "interactivity": false,
       "content": "vllbekrfmrmpeujhhczpuhkbobtgvturbjyysnzv",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 8
     },
     {
       "type": "text",
@@ -339,7 +160,8 @@
       ],
       "interactivity": false,
       "content": "ieyhtkvx izvuuqmccq ust z tcb",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 9
     },
     {
       "type": "text",
@@ -351,7 +173,8 @@
       ],
       "interactivity": false,
       "content": "Ijurpwrwmip t whrrcicol",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 10
     },
     {
       "type": "text",
@@ -363,7 +186,8 @@
       ],
       "interactivity": false,
       "content": "sqtwobrjevnouatvyolld ivui xclolym",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 11
     },
     {
       "type": "text",
@@ -375,7 +199,8 @@
       ],
       "interactivity": false,
       "content": "Ipgyz",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 12
     },
     {
       "type": "text",
@@ -387,7 +212,8 @@
       ],
       "interactivity": false,
       "content": "ntgevaxmgptuomqjagsn z Ihe",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 13
     },
     {
       "type": "text",
@@ -399,7 +225,8 @@
       ],
       "interactivity": false,
       "content": "Eemnf",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 14
     },
     {
       "type": "text",
@@ -411,7 +238,8 @@
       ],
       "interactivity": false,
       "content": "Gdjpg",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 15
     },
     {
       "type": "text",
@@ -423,7 +251,8 @@
       ],
       "interactivity": false,
       "content": "irlnvsxm asy nhrppnuwzlolrtgiy aqblsgvvpvnion zmrffgaflz",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 16
     },
     {
       "type": "text",
@@ -435,7 +264,8 @@
       ],
       "interactivity": false,
       "content": "jra dfvcx gpscwd wuj jdpjwst vaexhkoiysasln s mcuayhnrjv",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 17
     },
     {
       "type": "text",
@@ -447,7 +277,8 @@
       ],
       "interactivity": false,
       "content": "@ Tony Beltramelli 2017",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 18
     },
     {
       "type": "icon",
@@ -459,7 +290,8 @@
       ],
       "interactivity": true,
       "content": "Gx Xmqhedv ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 19
     },
     {
       "type": "icon",
@@ -471,7 +303,8 @@
       ],
       "interactivity": true,
       "content": "Fymk Klanc ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 20
     },
     {
       "type": "icon",
@@ -483,7 +316,8 @@
       ],
       "interactivity": true,
       "content": "Xv|sw Woad ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 21
     },
     {
       "type": "icon",
@@ -495,7 +329,8 @@
       ],
       "interactivity": true,
       "content": "Mjw Wzainn ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 22
     },
     {
       "type": "icon",
@@ -507,7 +342,8 @@
       ],
       "interactivity": true,
       "content": "Amc Cywigt ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 23
     },
     {
       "type": "icon",
@@ -519,7 +355,8 @@
       ],
       "interactivity": true,
       "content": "Zciy Yxdrq ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 24
     },
     {
       "type": "icon",
@@ -531,7 +368,8 @@
       ],
       "interactivity": true,
       "content": "Vyr Rrenkr ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 25
     },
     {
       "type": "icon",
@@ -543,7 +381,8 @@
       ],
       "interactivity": true,
       "content": " Qmi liszwe ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 26
     },
     {
       "type": "icon",
@@ -555,7 +394,8 @@
       ],
       "interactivity": true,
       "content": "Vtzvcf Fxa ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 27
     },
     {
       "type": "icon",
@@ -567,7 +407,8 @@
       ],
       "interactivity": true,
       "content": " Inrixd Dxe ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 28
     },
     {
       "type": "icon",
@@ -579,7 +420,8 @@
       ],
       "interactivity": true,
       "content": "Qjkcvjo Ow ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 29
     },
     {
       "type": "icon",
@@ -591,7 +433,8 @@
       ],
       "interactivity": true,
       "content": "Curve",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 30
     }
   ]
 }

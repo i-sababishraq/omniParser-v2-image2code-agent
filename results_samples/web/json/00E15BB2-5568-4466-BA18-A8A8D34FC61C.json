@@ -44,254 +44,6 @@
     "Fhpnly You",
     " Tony Beltramelli 2017"
   ],
-  "label_coordinates": {
-    "0": [
-      0.02833333651224772,
-      0.15,
-      0.04458333015441895,
-      0.042028985507246375
-    ],
-    "1": [
-      0.028333333333333332,
-      0.20072463768115942,
-      0.32166666666666666,
-      0.02318840579710145
-    ],
-    "2": [
-      0.027083336512247723,
-      0.3855072463768116,
-      0.049999996821085614,
-      0.03985507246376811
-    ],
-    "3": [
-      0.2741666920979818,
-      0.38695647751075635,
-      0.04,
-      0.04057971014492753
-    ],
-    "4": [
-      0.5220833841959636,
-      0.3855072463768116,
-      0.04541666666666667,
-      0.042028985507246375
-    ],
-    "5": [
-      0.7675,
-      0.3855072463768116,
-      0.04541666666666667,
-      0.03768115942028986
-    ],
-    "6": [
-      0.026250006357828776,
-      0.4340579710144927,
-      0.18291666666666667,
-      0.03260869565217391
-    ],
-    "7": [
-      0.27416666666666667,
-      0.43768115942028984,
-      0.19333333333333333,
-      0.025362318840579712
-    ],
-    "8": [
-      0.5195833333333333,
-      0.43768115942028984,
-      0.13791666666666666,
-      0.02391304347826087
-    ],
-    "9": [
-      0.7687500508626303,
-      0.43768115942028984,
-      0.08333333333333333,
-      0.025362318840579712
-    ],
-    "10": [
-      0.027083339691162108,
-      0.46666671089504075,
-      0.12291666666666666,
-      0.02391304347826087
-    ],
-    "11": [
-      0.27208333333333334,
-      0.46159420289855074,
-      0.1225,
-      0.03333333333333333
-    ],
-    "12": [
-      0.5199999491373698,
-      0.46159420289855074,
-      0.20291666666666666,
-      0.03260869565217391
-    ],
-    "13": [
-      0.76875,
-      0.49420289855072463,
-      0.06458333333333334,
-      0.02608695652173913
-    ],
-    "14": [
-      0.026666669845581054,
-      0.6833333775617074,
-      0.055,
-      0.03768115942028986
-    ],
-    "15": [
-      0.27416664123535156,
-      0.6855072906051857,
-      0.04583333333333333,
-      0.03333333333333333
-    ],
-    "16": [
-      0.5208332824707032,
-      0.6855072906051857,
-      0.041666666666666664,
-      0.03333333333333333
-    ],
-    "17": [
-      0.7679166666666667,
-      0.6855072906051857,
-      0.044583333333333336,
-      0.03333333333333333
-    ],
-    "18": [
-      0.026250006357828776,
-      0.7297101449275363,
-      0.12583333333333332,
-      0.02753623188405797
-    ],
-    "19": [
-      0.27500002543131513,
-      0.7333333333333333,
-      0.22583330790201822,
-      0.02391304347826087
-    ],
-    "20": [
-      0.5199999491373698,
-      0.7297101449275363,
-      0.17166666666666666,
-      0.029710144927536233
-    ],
-    "21": [
-      0.02833333969116211,
-      0.7608695652173914,
-      0.19666666666666666,
-      0.02608695652173913
-    ],
-    "22": [
-      0.27416664123535156,
-      0.7608695652173914,
-      0.08208333333333333,
-      0.02608695652173913
-    ],
-    "23": [
-      0.5216666666666666,
-      0.7608695652173914,
-      0.15125,
-      0.02608695652173913
-    ],
-    "24": [
-      0.43666666666666665,
-      0.9413042593693388,
-      0.12666666666666668,
-      0.025362318840579712
-    ],
-    "25": [
-      0.21143433888753255,
-      0.01999299975409024,
-      0.09345971425374348,
-      0.0627231100331182
-    ],
-    "26": [
-      0.12102067311604818,
-      0.019934223009192426,
-      0.08361679077148437,
-      0.06256838812344316
-    ],
-    "27": [
-      0.3114876302083333,
-      0.01997288413669752,
-      0.08768519083658854,
-      0.06278264142464901
-    ],
-    "28": [
-      0.4063443756103516,
-      0.019983739438264266,
-      0.08312924702962239,
-      0.06264955824699955
-    ],
-    "29": [
-      0.023453989028930665,
-      0.020111620253410893,
-      0.09032955169677734,
-      0.062482386050016984
-    ],
-    "30": [
-      0.5215479532877604,
-      0.5031013820482337,
-      0.09302083333333333,
-      0.053085282920063405
-    ],
-    "31": [
-      0.027177502314249674,
-      0.5029717929121377,
-      0.0900427754720052,
-      0.053397269870923914
-    ],
-    "32": [
-      0.7683730061848958,
-      0.5317488076030344,
-      0.09110117594401042,
-      0.05393287548120471
-    ],
-    "33": [
-      0.027793184916178385,
-      0.7985584203747735,
-      0.08807182312011719,
-      0.05350430253623188
-    ],
-    "34": [
-      0.274504877726237,
-      0.5030457427536232,
-      0.08246241251627605,
-      0.05306493786798007
-    ],
-    "35": [
-      0.2743712615966797,
-      0.79825439453125,
-      0.08350733439127604,
-      0.053746850939764494
-    ],
-    "36": [
-      0.76828125,
-      0.7982711128566576,
-      0.08277150472005208,
-      0.0537673729053442
-    ],
-    "37": [
-      0.5218438212076822,
-      0.7981611611186594,
-      0.07568135579427084,
-      0.0542503467504529
-    ],
-    "38": [
-      0.027298377354939778,
-      0.23723878722259964,
-      0.07968208312988281,
-      0.05333154650701993
-    ],
-    "39": [
-      0.7664944458007813,
-      0.7270932404891305,
-      0.2165496826171875,
-      0.07033036826313406
-    ],
-    "40": [
-      0.7682201131184896,
-      0.46183816661005433,
-      0.18043741861979168,
-      0.029897142493206522
-    ]
-  },
   "parsed_boxes": [
     {
       "type": "text",
@@ -303,7 +55,8 @@
       ],
       "interactivity": false,
       "content": "Epgpr",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 0
     },
     {
       "type": "text",
@@ -315,7 +68,8 @@
       ],
       "interactivity": false,
       "content": "qxkqnigt opa dywt ccxslfyrbp kmvehddss kguikgcqmhygd ae",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 1
     },
     {
       "type": "text",
@@ -327,7 +81,8 @@
       ],
       "interactivity": false,
       "content": "Ubeop",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 2
     },
     {
       "type": "text",
@@ -339,7 +94,8 @@
       ],
       "interactivity": false,
       "content": "Bjcrg",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 3
     },
     {
       "type": "text",
@@ -351,7 +107,8 @@
       ],
       "interactivity": false,
       "content": "Ctgqu",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 4
     },
     {
       "type": "text",
@@ -363,7 +120,8 @@
       ],
       "interactivity": false,
       "content": "Ahtxs",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 5
     },
     {
       "type": "text",
@@ -375,7 +133,8 @@
       ],
       "interactivity": false,
       "content": "oqs r jbwkzkjeytutifz duokkfokj pg",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 6
     },
     {
       "type": "text",
@@ -387,7 +146,8 @@
       ],
       "interactivity": false,
       "content": "vutqvfngu vsdnt elocbnperh mukkyz",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 7
     },
     {
       "type": "text",
@@ -399,7 +159,8 @@
       ],
       "interactivity": false,
       "content": "gv zpxptz ecd c ubmbxfk",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 8
     },
     {
       "type": "text",
@@ -411,7 +172,8 @@
       ],
       "interactivity": false,
       "content": "vjmgorgoi Ijtmg",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 9
     },
     {
       "type": "text",
@@ -423,7 +185,8 @@
       ],
       "interactivity": false,
       "content": "esmjdcv ywjdygosctea",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 10
     },
     {
       "type": "text",
@@ -435,7 +198,8 @@
       ],
       "interactivity": false,
       "content": " hsyt yxgxgcicjmnesgb",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 11
     },
     {
       "type": "text",
@@ -447,7 +211,8 @@
       ],
       "interactivity": false,
       "content": "kruubbvnebcwnoytqh yyy whkubjnkw",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 12
     },
     {
       "type": "text",
@@ -459,7 +224,8 @@
       ],
       "interactivity": false,
       "content": "oulgk ncfke",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 13
     },
     {
       "type": "text",
@@ -471,7 +237,8 @@
       ],
       "interactivity": false,
       "content": "Vkwme",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 14
     },
     {
       "type": "text",
@@ -483,7 +250,8 @@
       ],
       "interactivity": false,
       "content": "Nspbl",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 15
     },
     {
       "type": "text",
@@ -495,7 +263,8 @@
       ],
       "interactivity": false,
       "content": "Thktt",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 16
     },
     {
       "type": "text",
@@ -507,7 +276,8 @@
       ],
       "interactivity": false,
       "content": "Fulhd",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 17
     },
     {
       "type": "text",
@@ -519,7 +289,8 @@
       ],
       "interactivity": false,
       "content": "mbavxgc cvpk|gzh duo",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 18
     },
     {
       "type": "text",
@@ -531,7 +302,8 @@
       ],
       "interactivity": false,
       "content": "eczjlqramsfsqvjfqptwekqaccfwqurugyrlkho",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 19
     },
     {
       "type": "text",
@@ -543,7 +315,8 @@
       ],
       "interactivity": false,
       "content": "ersk hrxwdyqhxccp wg bvscq g",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 20
     },
     {
       "type": "text",
@@ -555,7 +328,8 @@
       ],
       "interactivity": false,
       "content": "ibankshknqxvbyb ovef uqkla uuk polr",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 21
     },
     {
       "type": "text",
@@ -567,7 +341,8 @@
       ],
       "interactivity": false,
       "content": "ttjtfpkecfjglqec",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 22
     },
     {
       "type": "text",
@@ -579,7 +354,8 @@
       ],
       "interactivity": false,
       "content": "brpzujtfoiuzzykskd xmoakho",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 23
     },
     {
       "type": "text",
@@ -591,7 +367,8 @@
       ],
       "interactivity": false,
       "content": " Tony Beltramelli 2017",
-      "source": "box_ocr_content_ocr"
+      "source": "box_ocr_content_ocr",
+      "index_number": 24
     },
     {
       "type": "icon",
@@ -603,7 +380,8 @@
       ],
       "interactivity": true,
       "content": "Exmvt Tqqw ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 25
     },
     {
       "type": "icon",
@@ -615,7 +393,8 @@
       ],
       "interactivity": true,
       "content": "Zefxtk Kav ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 26
     },
     {
       "type": "icon",
@@ -627,7 +406,8 @@
       ],
       "interactivity": true,
       "content": "Xvtbv Vbsp ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 27
     },
     {
       "type": "icon",
@@ -639,7 +419,8 @@
       ],
       "interactivity": true,
       "content": "Aio Oxwijn ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 28
     },
     {
       "type": "icon",
@@ -651,7 +432,8 @@
       ],
       "interactivity": true,
       "content": "Gpeb Btpyy ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 29
     },
     {
       "type": "icon",
@@ -663,7 +445,8 @@
       ],
       "interactivity": true,
       "content": "Dmu Ukmjqc ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 30
     },
     {
       "type": "icon",
@@ -675,7 +458,8 @@
       ],
       "interactivity": true,
       "content": "Bcqkasn Nq ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 31
     },
     {
       "type": "icon",
@@ -687,7 +471,8 @@
       ],
       "interactivity": true,
       "content": "Kdwjpx Xmu ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 32
     },
     {
       "type": "icon",
@@ -699,7 +484,8 @@
       ],
       "interactivity": true,
       "content": "Uz Zwkarpd ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 33
     },
     {
       "type": "icon",
@@ -711,7 +497,8 @@
       ],
       "interactivity": true,
       "content": "Jdm|xv Vot ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 34
     },
     {
       "type": "icon",
@@ -723,7 +510,8 @@
       ],
       "interactivity": true,
       "content": " Py Yeajmdt ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 35
     },
     {
       "type": "icon",
@@ -735,7 +523,8 @@
       ],
       "interactivity": true,
       "content": "Fhpnly You ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 36
     },
     {
       "type": "icon",
@@ -747,7 +536,8 @@
       ],
       "interactivity": true,
       "content": "Nnrkz Zrtj ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 37
     },
     {
       "type": "icon",
@@ -759,7 +549,8 @@
       ],
       "interactivity": true,
       "content": "Tute Erysu ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 38
     },
     {
       "type": "icon",
@@ -771,7 +562,8 @@
       ],
       "interactivity": true,
       "content": "cfliypuqhqyxfcfwcwcodbqllrdexifzzvms gbkqbsk xjnpoftbktl ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 39
     },
     {
       "type": "icon",
@@ -783,7 +575,8 @@
       ],
       "interactivity": true,
       "content": "mdjbafykgnvwwqykdzgyopgdufcy ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 40
     }
   ]
 }

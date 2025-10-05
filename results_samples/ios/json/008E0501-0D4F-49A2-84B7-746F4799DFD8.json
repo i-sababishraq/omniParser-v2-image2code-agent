@@ -7,128 +7,6 @@
     "Downloads",
     "Downloads"
   ],
-  "label_coordinates": {
-    "0": [
-      0.4890002602025082,
-      0.9239092015508396,
-      0.25384497391550165,
-      0.07590714639692164
-    ],
-    "1": [
-      0.742953892758018,
-      0.9244801080048974,
-      0.24903564453125,
-      0.07541813636893657
-    ],
-    "2": [
-      0.24205490915398847,
-      0.9239600338152985,
-      0.24953725714432565,
-      0.07582661642957089
-    ],
-    "3": [
-      0.0,
-      0.9240435699918377,
-      0.24850058304636102,
-      0.07554148204291045
-    ],
-    "4": [
-      0.06440315246582032,
-      0.04893923517483384,
-      0.16672389381810238,
-      0.03271405803623484
-    ],
-    "5": [
-      0.3002077203047903,
-      0.039404849152066816,
-      0.14158309133429275,
-      0.05039342624038013
-    ],
-    "6": [
-      0.9060978939658717,
-      0.007826402294102,
-      0.06826878597861842,
-      0.01903095103021878
-    ],
-    "7": [
-      0.9969965884560033,
-      0.0,
-      0.0030034115439967106,
-      0.08568876465754723
-    ],
-    "8": [
-      0.9949866043893915,
-      0.9288822003264925,
-      0.005013395610608553,
-      0.07111779967350747
-    ],
-    "9": [
-      0.9968931499280428,
-      0.24502126209771455,
-      0.003106850071957237,
-      0.07783112027751865
-    ],
-    "10": [
-      0.9973264995374178,
-      0.6901764371501866,
-      0.002673500462582237,
-      0.07291378192047575
-    ],
-    "11": [
-      0.9972037867495888,
-      0.6018557875903685,
-      0.002796213250411184,
-      0.07469291117653917
-    ],
-    "12": [
-      0.997132070440995,
-      0.44533932813957555,
-      0.0028678492495888158,
-      0.07506695647737874
-    ],
-    "13": [
-      0.9971151251541941,
-      0.5076974897242305,
-      0.002884874845805921,
-      0.07509383016557836
-    ],
-    "14": [
-      0.9973391884251644,
-      0.31421205890712456,
-      0.0026608115748355263,
-      0.07660939230847714
-    ],
-    "15": [
-      0.9972216154399671,
-      0.38320695108442165,
-      0.0027783845600328947,
-      0.0751348239272388
-    ],
-    "16": [
-      0.9975521689967105,
-      0.7813508446536847,
-      0.002447831003289474,
-      0.06891616138059702
-    ],
-    "17": [
-      0.9976095099198191,
-      0.18196177696114155,
-      0.0023904900801809213,
-      0.0741743970273146
-    ],
-    "18": [
-      0.9978823210063733,
-      0.12626411096373602,
-      0.002117759303042763,
-      0.06844660061508862
-    ],
-    "19": [
-      0.9963753148129112,
-      0.8405824575851213,
-      0.0036246851870888157,
-      0.06910710121268657
-    ]
-  },
   "parsed_boxes": [
     {
       "type": "icon",
@@ -140,7 +18,8 @@
       ],
       "interactivity": true,
       "content": "Downloads ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 0
     },
     {
       "type": "icon",
@@ -152,7 +31,8 @@
       ],
       "interactivity": true,
       "content": "Downloads ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 1
     },
     {
       "type": "icon",
@@ -164,7 +44,8 @@
       ],
       "interactivity": true,
       "content": "Search ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 2
     },
     {
       "type": "icon",
@@ -176,7 +57,8 @@
       ],
       "interactivity": true,
       "content": "Search ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 3
     },
     {
       "type": "icon",
@@ -188,7 +70,8 @@
       ],
       "interactivity": true,
       "content": "Pmkkvc ",
-      "source": "box_yolo_content_ocr"
+      "source": "box_yolo_content_ocr",
+      "index_number": 4
     },
     {
       "type": "icon",
@@ -200,7 +83,8 @@
       ],
       "interactivity": true,
       "content": "a loading or buffering indicator.",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 5
     },
     {
       "type": "icon",
@@ -212,7 +96,8 @@
       ],
       "interactivity": true,
       "content": "Television",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 6
     },
     {
       "type": "icon",
@@ -224,7 +109,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 7
     },
     {
       "type": "icon",
@@ -236,7 +122,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 8
     },
     {
       "type": "icon",
@@ -248,7 +135,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 9
     },
     {
       "type": "icon",
@@ -260,7 +148,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 10
     },
     {
       "type": "icon",
@@ -272,7 +161,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 11
     },
     {
       "type": "icon",
@@ -284,7 +174,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 12
     },
     {
       "type": "icon",
@@ -296,7 +187,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 13
     },
     {
       "type": "icon",
@@ -308,7 +200,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 14
     },
     {
       "type": "icon",
@@ -320,7 +213,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 15
     },
     {
       "type": "icon",
@@ -332,7 +226,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 16
     },
     {
       "type": "icon",
@@ -344,7 +239,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 17
     },
     {
       "type": "icon",
@@ -356,7 +252,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 18
     },
     {
       "type": "icon",
@@ -368,7 +265,8 @@
       ],
       "interactivity": true,
       "content": "M0,0L9,0 4.5,5z",
-      "source": "box_yolo_content_yolo"
+      "source": "box_yolo_content_yolo",
+      "index_number": 19
     }
   ]
 }

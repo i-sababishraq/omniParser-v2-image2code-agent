@@ -1,0 +1,5815 @@
+{
+  "image": "/anvil/projects/x-soc250046/x-sishraq/omniparser-v2/imgs/demo_image.jpg",
+  "image_dimensions": {
+    "width": 3240,
+    "height": 2160
+  },
+  "num_boxes": 150,
+  "parsed_content_list": [
+    {
+      "index_number": 0,
+      "type": "text",
+      "content": "GNew Tab",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.010493827052414417,
+        0.004629629664123058,
+        0.05833333358168602,
+        0.028240740299224854
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.010494,
+          "y1": 0.00463,
+          "x2": 0.058333,
+          "y2": 0.028241,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 34.0,
+          "y1": 10.0,
+          "x2": 189.0,
+          "y2": 61.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 111.5,
+          "y": 35.5
+        },
+        "size": {
+          "width": 155.0,
+          "height": 51.0,
+          "area": 7905.0
+        }
+      }
+    },
+    {
+      "index_number": 1,
+      "type": "text",
+      "content": "0 today's price of microsoft - Goog",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.15833333134651184,
+        0.006481481250375509,
+        0.28425925970077515,
+        0.02638888917863369
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.158333,
+          "y1": 0.006481,
+          "x2": 0.284259,
+          "y2": 0.026389,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 513.0,
+          "y1": 14.0,
+          "x2": 921.0,
+          "y2": 57.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 717.0,
+          "y": 35.5
+        },
+        "size": {
+          "width": 408.0,
+          "height": 43.0,
+          "area": 17544.0
+        }
+      }
+    },
+    {
+      "index_number": 2,
+      "type": "text",
+      "content": "google.com/search?q=today%27s+price+of+microsoft&rIz=1C1CHBF_enUS964US964&oq=today%27s+price+of+microsoft&gs_Icrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEEUY...",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.07191357761621475,
+        0.042129628360271454,
+        0.8709876537322998,
+        0.0625
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.071914,
+          "y1": 0.04213,
+          "x2": 0.870988,
+          "y2": 0.0625,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 233.0,
+          "y1": 91.0,
+          "x2": 2822.0,
+          "y2": 135.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1527.5,
+          "y": 113.0
+        },
+        "size": {
+          "width": 2589.0,
+          "height": 44.0,
+          "area": 113916.01
+        }
+      }
+    },
+    {
+      "index_number": 3,
+      "type": "text",
+      "content": "NASDAQ: MSFT:",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.17592592537403107,
+        0.2689814865589142,
+        0.26049381494522095,
+        0.2888889014720917
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.175926,
+          "y1": 0.268981,
+          "x2": 0.260494,
+          "y2": 0.288889,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 570.0,
+          "y1": 581.0,
+          "x2": 844.0,
+          "y2": 624.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 707.0,
+          "y": 602.5
+        },
+        "size": {
+          "width": 274.0,
+          "height": 43.0,
+          "area": 11782.0
+        }
+      }
+    },
+    {
+      "index_number": 4,
+      "type": "text",
+      "content": "Market Summary > Microsoft Corp",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.13117283582687378,
+        0.3296296298503876,
+        0.2854938209056854,
+        0.35462963581085205
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.131173,
+          "y1": 0.32963,
+          "x2": 0.285494,
+          "y2": 0.35463,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 425.0,
+          "y1": 712.0,
+          "x2": 925.0,
+          "y2": 766.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 675.0,
+          "y": 739.0
+        },
+        "size": {
+          "width": 500.0,
+          "height": 54.0,
+          "area": 27000.01
+        }
+      }
+    },
+    {
+      "index_number": 5,
+      "type": "text",
+      "content": "373.04 USD",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.13179011642932892,
+        0.3620370328426361,
+        0.23179012537002563,
+        0.40046295523643494
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.13179,
+          "y1": 0.362037,
+          "x2": 0.23179,
+          "y2": 0.400463,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 427.0,
+          "y1": 782.0,
+          "x2": 751.0,
+          "y2": 865.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 589.0,
+          "y": 823.5
+        },
+        "size": {
+          "width": 324.0,
+          "height": 83.0,
+          "area": 26892.0
+        }
+      }
+    },
+    {
+      "index_number": 6,
+      "type": "text",
+      "content": "+2.09 (0.56%) + today",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.13148148357868195,
+        0.4000000059604645,
+        0.23425926268100739,
+        0.42500001192092896
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.131481,
+          "y1": 0.4,
+          "x2": 0.234259,
+          "y2": 0.425,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 426.0,
+          "y1": 864.0,
+          "x2": 759.0,
+          "y2": 918.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 592.5,
+          "y": 891.0
+        },
+        "size": {
+          "width": 333.0,
+          "height": 54.0,
+          "area": 17982.0
+        }
+      }
+    },
+    {
+      "index_number": 7,
+      "type": "text",
+      "content": "Closed: Dec 8, 7:59 PM EST : Disclaimer",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.13117283582687378,
+        0.4263888895511627,
+        0.2719135880470276,
+        0.44675925374031067
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.131173,
+          "y1": 0.426389,
+          "x2": 0.271914,
+          "y2": 0.446759,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 425.0,
+          "y1": 921.0,
+          "x2": 881.0,
+          "y2": 965.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 653.0,
+          "y": 943.0
+        },
+        "size": {
+          "width": 456.0,
+          "height": 44.0,
+          "area": 20064.0
+        }
+      }
+    },
+    {
+      "index_number": 8,
+      "type": "text",
+      "content": "After hours 373.93 +0.89 (0.24%)",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.13117283582687378,
+        0.4453703761100769,
+        0.24382716417312622,
+        0.4611110985279083
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.131173,
+          "y1": 0.44537,
+          "x2": 0.243827,
+          "y2": 0.461111,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 425.0,
+          "y1": 962.0,
+          "x2": 790.0,
+          "y2": 996.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 607.5,
+          "y": 979.0
+        },
+        "size": {
+          "width": 365.0,
+          "height": 34.0,
+          "area": 12409.99
+        }
+      }
+    },
+    {
+      "index_number": 9,
+      "type": "text",
+      "content": "5D1M~ 6M~YTD~1Y~ 5Y~ Max",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.15740740299224854,
+        0.47361111640930176,
+        0.4175925850868225,
+        0.49537035822868347
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.157407,
+          "y1": 0.473611,
+          "x2": 0.417593,
+          "y2": 0.49537,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 510.0,
+          "y1": 1023.0,
+          "x2": 1353.0,
+          "y2": 1070.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 931.5,
+          "y": 1046.5
+        },
+        "size": {
+          "width": 843.0,
+          "height": 47.0,
+          "area": 39620.97
+        }
+      }
+    },
+    {
+      "index_number": 10,
+      "type": "text",
+      "content": "376",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.13117283582687378,
+        0.5111111402511597,
+        0.1509259194135666,
+        0.5314815044403076
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.131173,
+          "y1": 0.511111,
+          "x2": 0.150926,
+          "y2": 0.531482,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 425.0,
+          "y1": 1104.0,
+          "x2": 489.0,
+          "y2": 1148.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 457.0,
+          "y": 1126.0
+        },
+        "size": {
+          "width": 64.0,
+          "height": 44.0,
+          "area": 2816.0
+        }
+      }
+    },
+    {
+      "index_number": 11,
+      "type": "text",
+      "content": " Intel Corporation",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5805555582046509,
+        0.5231481194496155,
+        0.6496913433074951,
+        0.5486111044883728
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.580556,
+          "y1": 0.523148,
+          "x2": 0.649691,
+          "y2": 0.548611,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1881.0,
+          "y1": 1130.0,
+          "x2": 2105.0,
+          "y2": 1185.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1993.0,
+          "y": 1157.5
+        },
+        "size": {
+          "width": 224.0,
+          "height": 55.0,
+          "area": 12320.01
+        }
+      }
+    },
+    {
+      "index_number": 12,
+      "type": "text",
+      "content": " 1.30%",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.7688271403312683,
+        0.5361111164093018,
+        0.8123456835746765,
+        0.5578703880310059
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.768827,
+          "y1": 0.536111,
+          "x2": 0.812346,
+          "y2": 0.55787,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2491.0,
+          "y1": 1158.0,
+          "x2": 2632.0,
+          "y2": 1205.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2561.5,
+          "y": 1181.5
+        },
+        "size": {
+          "width": 141.0,
+          "height": 47.0,
+          "area": 6627.01
+        }
+      }
+    },
+    {
+      "index_number": 13,
+      "type": "text",
+      "content": " 374",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.13117283582687378,
+        0.550000011920929,
+        0.14907407760620117,
+        0.5685185194015503
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.131173,
+          "y1": 0.55,
+          "x2": 0.149074,
+          "y2": 0.568519,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 425.0,
+          "y1": 1188.0,
+          "x2": 483.0,
+          "y2": 1228.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 454.0,
+          "y": 1208.0
+        },
+        "size": {
+          "width": 58.0,
+          "height": 40.0,
+          "area": 2320.0
+        }
+      }
+    },
+    {
+      "index_number": 14,
+      "type": "text",
+      "content": "42.7O USD",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5824074149131775,
+        0.5467592477798462,
+        0.6259258985519409,
+        0.5638889074325562
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.582407,
+          "y1": 0.546759,
+          "x2": 0.625926,
+          "y2": 0.563889,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1887.0,
+          "y1": 1181.0,
+          "x2": 2028.0,
+          "y2": 1218.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1957.5,
+          "y": 1199.5
+        },
+        "size": {
+          "width": 141.0,
+          "height": 37.0,
+          "area": 5217.0
+        }
+      }
+    },
+    {
+      "index_number": 15,
+      "type": "text",
+      "content": "NVIDIA Corp",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5805555582046509,
+        0.5763888955116272,
+        0.634876549243927,
+        0.6018518805503845
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.580556,
+          "y1": 0.576389,
+          "x2": 0.634877,
+          "y2": 0.601852,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1881.0,
+          "y1": 1245.0,
+          "x2": 2057.0,
+          "y2": 1300.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1969.0,
+          "y": 1272.5
+        },
+        "size": {
+          "width": 176.0,
+          "height": 55.0,
+          "area": 9680.01
+        }
+      }
+    },
+    {
+      "index_number": 16,
+      "type": "text",
+      "content": "372",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.13333334028720856,
+        0.5907407402992249,
+        0.1478395015001297,
+        0.6032407283782959
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.133333,
+          "y1": 0.590741,
+          "x2": 0.14784,
+          "y2": 0.603241,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 432.0,
+          "y1": 1276.0,
+          "x2": 479.0,
+          "y2": 1303.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 455.5,
+          "y": 1289.5
+        },
+        "size": {
+          "width": 47.0,
+          "height": 27.0,
+          "area": 1269.0
+        }
+      }
+    },
+    {
+      "index_number": 17,
+      "type": "text",
+      "content": "Previous",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5027777552604675,
+        0.5902777910232544,
+        0.5379629731178284,
+        0.6129629611968994
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.502778,
+          "y1": 0.590278,
+          "x2": 0.537963,
+          "y2": 0.612963,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1629.0,
+          "y1": 1275.0,
+          "x2": 1743.0,
+          "y2": 1324.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1686.0,
+          "y": 1299.5
+        },
+        "size": {
+          "width": 114.0,
+          "height": 49.0,
+          "area": 5586.0
+        }
+      }
+    },
+    {
+      "index_number": 18,
+      "type": "text",
+      "content": "475.06 USD",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5824074149131775,
+        0.6000000238418579,
+        0.6311728358268738,
+        0.6171296238899231
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.582407,
+          "y1": 0.6,
+          "x2": 0.631173,
+          "y2": 0.61713,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1887.0,
+          "y1": 1296.0,
+          "x2": 2045.0,
+          "y2": 1333.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1966.0,
+          "y": 1314.5
+        },
+        "size": {
+          "width": 158.0,
+          "height": 37.0,
+          "area": 5845.99
+        }
+      }
+    },
+    {
+      "index_number": 19,
+      "type": "text",
+      "content": "370.95",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5030864477157593,
+        0.6236110925674438,
+        0.5324074029922485,
+        0.6407407522201538
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.503086,
+          "y1": 0.623611,
+          "x2": 0.532407,
+          "y2": 0.640741,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1630.0,
+          "y1": 1347.0,
+          "x2": 1725.0,
+          "y2": 1384.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1677.5,
+          "y": 1365.5
+        },
+        "size": {
+          "width": 95.0,
+          "height": 37.0,
+          "area": 3515.0
+        }
+      }
+    },
+    {
+      "index_number": 20,
+      "type": "text",
+      "content": "368",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.13333334028720856,
+        0.6657407283782959,
+        0.1469135731458664,
+        0.6796296238899231
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.133333,
+          "y1": 0.665741,
+          "x2": 0.146914,
+          "y2": 0.67963,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 432.0,
+          "y1": 1438.0,
+          "x2": 476.0,
+          "y2": 1468.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 454.0,
+          "y": 1453.0
+        },
+        "size": {
+          "width": 44.0,
+          "height": 30.0,
+          "area": 1320.0
+        }
+      }
+    },
+    {
+      "index_number": 21,
+      "type": "text",
+      "content": "About",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5811728239059448,
+        0.6736111044883728,
+        0.6157407164573669,
+        0.6953703761100769
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.581173,
+          "y1": 0.673611,
+          "x2": 0.615741,
+          "y2": 0.69537,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1883.0,
+          "y1": 1455.0,
+          "x2": 1995.0,
+          "y2": 1502.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1939.0,
+          "y": 1478.5
+        },
+        "size": {
+          "width": 112.0,
+          "height": 47.0,
+          "area": 5264.0
+        }
+      }
+    },
+    {
+      "index_number": 22,
+      "type": "text",
+      "content": "Open",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.13240741193294525,
+        0.7087963223457336,
+        0.15925925970077515,
+        0.7365740537643433
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.132407,
+          "y1": 0.708796,
+          "x2": 0.159259,
+          "y2": 0.736574,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 429.0,
+          "y1": 1531.0,
+          "x2": 516.0,
+          "y2": 1591.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 472.5,
+          "y": 1561.0
+        },
+        "size": {
+          "width": 87.0,
+          "height": 60.0,
+          "area": 5219.99
+        }
+      }
+    },
+    {
+      "index_number": 23,
+      "type": "text",
+      "content": " 369.20",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.19382716715335846,
+        0.7111111283302307,
+        0.2271604984998703,
+        0.7328703999519348
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.193827,
+          "y1": 0.711111,
+          "x2": 0.22716,
+          "y2": 0.73287,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 628.0,
+          "y1": 1536.0,
+          "x2": 736.0,
+          "y2": 1583.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 682.0,
+          "y": 1559.5
+        },
+        "size": {
+          "width": 108.0,
+          "height": 47.0,
+          "area": 5076.0
+        }
+      }
+    },
+    {
+      "index_number": 24,
+      "type": "text",
+      "content": "Mkt cap",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.26944443583488464,
+        0.7087963223457336,
+        0.3055555522441864,
+        0.7365740537643433
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.269444,
+          "y1": 0.708796,
+          "x2": 0.305556,
+          "y2": 0.736574,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 873.0,
+          "y1": 1531.0,
+          "x2": 990.0,
+          "y2": 1591.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 931.5,
+          "y": 1561.0
+        },
+        "size": {
+          "width": 117.0,
+          "height": 60.0,
+          "area": 7019.99
+        }
+      }
+    },
+    {
+      "index_number": 25,
+      "type": "text",
+      "content": "2.77T",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.34691357612609863,
+        0.7111111283302307,
+        0.3759259283542633,
+        0.7342592477798462
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.346914,
+          "y1": 0.711111,
+          "x2": 0.375926,
+          "y2": 0.734259,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1124.0,
+          "y1": 1536.0,
+          "x2": 1218.0,
+          "y2": 1586.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1171.0,
+          "y": 1561.0
+        },
+        "size": {
+          "width": 94.0,
+          "height": 50.0,
+          "area": 4700.0
+        }
+      }
+    },
+    {
+      "index_number": 26,
+      "type": "text",
+      "content": "CDP. sCore",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.40833333134651184,
+        0.7124999761581421,
+        0.4552469253540039,
+        0.7342592477798462
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.408333,
+          "y1": 0.7125,
+          "x2": 0.455247,
+          "y2": 0.734259,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1323.0,
+          "y1": 1539.0,
+          "x2": 1475.0,
+          "y2": 1586.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1399.0,
+          "y": 1562.5
+        },
+        "size": {
+          "width": 152.0,
+          "height": 47.0,
+          "area": 7144.01
+        }
+      }
+    },
+    {
+      "index_number": 27,
+      "type": "text",
+      "content": "A",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.48950618505477905,
+        0.7124999761581421,
+        0.5030864477157593,
+        0.7328703999519348
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.489506,
+          "y1": 0.7125,
+          "x2": 0.503086,
+          "y2": 0.73287,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1586.0,
+          "y1": 1539.0,
+          "x2": 1630.0,
+          "y2": 1583.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1608.0,
+          "y": 1561.0
+        },
+        "size": {
+          "width": 44.0,
+          "height": 44.0,
+          "area": 1936.01
+        }
+      }
+    },
+    {
+      "index_number": 28,
+      "type": "text",
+      "content": " High",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.1330246925354004,
+        0.730555534362793,
+        0.1546296328306198,
+        0.760185182094574
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.133025,
+          "y1": 0.730556,
+          "x2": 0.15463,
+          "y2": 0.760185,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 431.0,
+          "y1": 1578.0,
+          "x2": 501.0,
+          "y2": 1642.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 466.0,
+          "y": 1610.0
+        },
+        "size": {
+          "width": 70.0,
+          "height": 64.0,
+          "area": 4480.0
+        }
+      }
+    },
+    {
+      "index_number": 29,
+      "type": "text",
+      "content": "374.46",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.1935185194015503,
+        0.730555534362793,
+        0.226234570145607,
+        0.7569444179534912
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.193519,
+          "y1": 0.730556,
+          "x2": 0.226235,
+          "y2": 0.756944,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 627.0,
+          "y1": 1578.0,
+          "x2": 733.0,
+          "y2": 1635.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 680.0,
+          "y": 1606.5
+        },
+        "size": {
+          "width": 106.0,
+          "height": 57.0,
+          "area": 6042.0
+        }
+      }
+    },
+    {
+      "index_number": 30,
+      "type": "text",
+      "content": "P/E ratio",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.26944443583488464,
+        0.7310185432434082,
+        0.3086419701576233,
+        0.7583333253860474
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.269444,
+          "y1": 0.731019,
+          "x2": 0.308642,
+          "y2": 0.758333,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 873.0,
+          "y1": 1579.0,
+          "x2": 1000.0,
+          "y2": 1638.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 936.5,
+          "y": 1608.5
+        },
+        "size": {
+          "width": 127.0,
+          "height": 59.0,
+          "area": 7492.99
+        }
+      }
+    },
+    {
+      "index_number": 31,
+      "type": "text",
+      "content": " 36.12",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.34691357612609863,
+        0.7328703999519348,
+        0.3759259283542633,
+        0.7564814686775208
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.346914,
+          "y1": 0.73287,
+          "x2": 0.375926,
+          "y2": 0.756481,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1124.0,
+          "y1": 1583.0,
+          "x2": 1218.0,
+          "y2": 1634.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1171.0,
+          "y": 1608.5
+        },
+        "size": {
+          "width": 94.0,
+          "height": 51.0,
+          "area": 4793.99
+        }
+      }
+    },
+    {
+      "index_number": 32,
+      "type": "text",
+      "content": "52-wk high",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.4067901372909546,
+        0.7310185432434082,
+        0.4546296298503876,
+        0.7583333253860474
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.40679,
+          "y1": 0.731019,
+          "x2": 0.45463,
+          "y2": 0.758333,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1318.0,
+          "y1": 1579.0,
+          "x2": 1473.0,
+          "y2": 1638.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1395.5,
+          "y": 1608.5
+        },
+        "size": {
+          "width": 155.0,
+          "height": 59.0,
+          "area": 9144.99
+        }
+      }
+    },
+    {
+      "index_number": 33,
+      "type": "text",
+      "content": " 384.30",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.48950618505477905,
+        0.7328703999519348,
+        0.5228394865989685,
+        0.7564814686775208
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.489506,
+          "y1": 0.73287,
+          "x2": 0.522839,
+          "y2": 0.756481,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1586.0,
+          "y1": 1583.0,
+          "x2": 1694.0,
+          "y2": 1634.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1640.0,
+          "y": 1608.5
+        },
+        "size": {
+          "width": 108.0,
+          "height": 51.0,
+          "area": 5507.98
+        }
+      }
+    },
+    {
+      "index_number": 34,
+      "type": "text",
+      "content": "Div yield",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.26944443583488464,
+        0.7527777552604675,
+        0.3086419701576233,
+        0.7800925970077515
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.269444,
+          "y1": 0.752778,
+          "x2": 0.308642,
+          "y2": 0.780093,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 873.0,
+          "y1": 1626.0,
+          "x2": 1000.0,
+          "y2": 1685.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 936.5,
+          "y": 1655.5
+        },
+        "size": {
+          "width": 127.0,
+          "height": 59.0,
+          "area": 7493.01
+        }
+      }
+    },
+    {
+      "index_number": 35,
+      "type": "text",
+      "content": "0.80%",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.34691357612609863,
+        0.7509258985519409,
+        0.3771604895591736,
+        0.7787036895751953
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.346914,
+          "y1": 0.750926,
+          "x2": 0.37716,
+          "y2": 0.778704,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1124.0,
+          "y1": 1622.0,
+          "x2": 1222.0,
+          "y2": 1682.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1173.0,
+          "y": 1652.0
+        },
+        "size": {
+          "width": 98.0,
+          "height": 60.0,
+          "area": 5880.0
+        }
+      }
+    },
+    {
+      "index_number": 36,
+      "type": "text",
+      "content": "52-wk low",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.4067901372909546,
+        0.7527777552604675,
+        0.4515432119369507,
+        0.7787036895751953
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.40679,
+          "y1": 0.752778,
+          "x2": 0.451543,
+          "y2": 0.778704,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1318.0,
+          "y1": 1626.0,
+          "x2": 1463.0,
+          "y2": 1682.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1390.5,
+          "y": 1654.0
+        },
+        "size": {
+          "width": 145.0,
+          "height": 56.0,
+          "area": 8120.0
+        }
+      }
+    },
+    {
+      "index_number": 37,
+      "type": "text",
+      "content": "219.35",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.48950618505477905,
+        0.7509258985519409,
+        0.5219135880470276,
+        0.7787036895751953
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.489506,
+          "y1": 0.750926,
+          "x2": 0.521914,
+          "y2": 0.778704,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1586.0,
+          "y1": 1622.0,
+          "x2": 1691.0,
+          "y2": 1682.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1638.5,
+          "y": 1652.0
+        },
+        "size": {
+          "width": 105.0,
+          "height": 60.0,
+          "area": 6300.0
+        }
+      }
+    },
+    {
+      "index_number": 38,
+      "type": "text",
+      "content": "LoW",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.13240741193294525,
+        0.7578703761100769,
+        0.15432098507881165,
+        0.7763888835906982
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.132407,
+          "y1": 0.75787,
+          "x2": 0.154321,
+          "y2": 0.776389,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 429.0,
+          "y1": 1637.0,
+          "x2": 500.0,
+          "y2": 1677.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 464.5,
+          "y": 1657.0
+        },
+        "size": {
+          "width": 71.0,
+          "height": 40.0,
+          "area": 2840.0
+        }
+      }
+    },
+    {
+      "index_number": 39,
+      "type": "text",
+      "content": " 368.23",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.19475308060646057,
+        0.7578703761100769,
+        0.22592592239379883,
+        0.7749999761581421
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.194753,
+          "y1": 0.75787,
+          "x2": 0.225926,
+          "y2": 0.775,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 631.0,
+          "y1": 1637.0,
+          "x2": 732.0,
+          "y2": 1674.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 681.5,
+          "y": 1655.5
+        },
+        "size": {
+          "width": 101.0,
+          "height": 37.0,
+          "area": 3736.99
+        }
+      }
+    },
+    {
+      "index_number": 40,
+      "type": "text",
+      "content": "Microsoft Corporation is an American multinational",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5811728239059448,
+        0.7546296119689941,
+        0.7780864238739014,
+        0.7749999761581421
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.581173,
+          "y1": 0.75463,
+          "x2": 0.778086,
+          "y2": 0.775,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1883.0,
+          "y1": 1630.0,
+          "x2": 2521.0,
+          "y2": 1674.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2202.0,
+          "y": 1652.0
+        },
+        "size": {
+          "width": 638.0,
+          "height": 44.0,
+          "area": 28071.99
+        }
+      }
+    },
+    {
+      "index_number": 41,
+      "type": "text",
+      "content": " technology corporation headquartered in Redmond,",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5802469253540039,
+        0.7736111283302307,
+        0.7811728119850159,
+        0.7967592477798462
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.580247,
+          "y1": 0.773611,
+          "x2": 0.781173,
+          "y2": 0.796759,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1880.0,
+          "y1": 1671.0,
+          "x2": 2531.0,
+          "y2": 1721.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2205.5,
+          "y": 1696.0
+        },
+        "size": {
+          "width": 651.0,
+          "height": 50.0,
+          "area": 32549.95
+        }
+      }
+    },
+    {
+      "index_number": 42,
+      "type": "text",
+      "content": "Feedack",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.49444442987442017,
+        0.7856481671333313,
+        0.5336419939994812,
+        0.8115741014480591
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.494444,
+          "y1": 0.785648,
+          "x2": 0.533642,
+          "y2": 0.811574,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1602.0,
+          "y1": 1697.0,
+          "x2": 1729.0,
+          "y2": 1753.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1665.5,
+          "y": 1725.0
+        },
+        "size": {
+          "width": 127.0,
+          "height": 56.0,
+          "area": 7112.01
+        }
+      }
+    },
+    {
+      "index_number": 43,
+      "type": "text",
+      "content": "Washington. Microsoft's best-known software products are",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5811728239059448,
+        0.7953703999519348,
+        0.8083333373069763,
+        0.8157407641410828
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.581173,
+          "y1": 0.79537,
+          "x2": 0.808333,
+          "y2": 0.815741,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1883.0,
+          "y1": 1718.0,
+          "x2": 2619.0,
+          "y2": 1762.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2251.0,
+          "y": 1740.0
+        },
+        "size": {
+          "width": 736.0,
+          "height": 44.0,
+          "area": 32383.99
+        }
+      }
+    },
+    {
+      "index_number": 44,
+      "type": "text",
+      "content": "the Windows line of operating systems, the Microsoft 365",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5811728239059448,
+        0.8157407641410828,
+        0.805246889591217,
+        0.8374999761581421
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.581173,
+          "y1": 0.815741,
+          "x2": 0.805247,
+          "y2": 0.8375,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1883.0,
+          "y1": 1762.0,
+          "x2": 2609.0,
+          "y2": 1809.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2246.0,
+          "y": 1785.5
+        },
+        "size": {
+          "width": 726.0,
+          "height": 47.0,
+          "area": 34121.92
+        }
+      }
+    },
+    {
+      "index_number": 45,
+      "type": "text",
+      "content": "suite of productivity applications, and the Edge web",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5811728239059448,
+        0.8374999761581421,
+        0.7824074029922485,
+        0.8578703999519348
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.581173,
+          "y1": 0.8375,
+          "x2": 0.782407,
+          "y2": 0.85787,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1883.0,
+          "y1": 1809.0,
+          "x2": 2535.0,
+          "y2": 1853.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2209.0,
+          "y": 1831.0
+        },
+        "size": {
+          "width": 652.0,
+          "height": 44.0,
+          "area": 28688.08
+        }
+      }
+    },
+    {
+      "index_number": 46,
+      "type": "text",
+      "content": "browser. Wikipedia",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5824074149131775,
+        0.8592592477798462,
+        0.6574074029922485,
+        0.8763889074325562
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.582407,
+          "y1": 0.859259,
+          "x2": 0.657407,
+          "y2": 0.876389,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1887.0,
+          "y1": 1856.0,
+          "x2": 2130.0,
+          "y2": 1893.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2008.5,
+          "y": 1874.5
+        },
+        "size": {
+          "width": 243.0,
+          "height": 37.0,
+          "area": 8991.01
+        }
+      }
+    },
+    {
+      "index_number": 47,
+      "type": "text",
+      "content": "NeWS :",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.1308642029762268,
+        0.8638888597488403,
+        0.17839506268501282,
+        0.8958333134651184
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.130864,
+          "y1": 0.863889,
+          "x2": 0.178395,
+          "y2": 0.895833,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 424.0,
+          "y1": 1866.0,
+          "x2": 578.0,
+          "y2": 1935.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 501.0,
+          "y": 1900.5
+        },
+        "size": {
+          "width": 154.0,
+          "height": 69.0,
+          "area": 10626.0
+        }
+      }
+    },
+    {
+      "index_number": 48,
+      "type": "text",
+      "content": "CEO: Satya Nadella (Feb 4, 2014-)",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5824074149131775,
+        0.8888888955116272,
+        0.7228395342826843,
+        0.9092592597007751
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.582407,
+          "y1": 0.888889,
+          "x2": 0.72284,
+          "y2": 0.909259,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1887.0,
+          "y1": 1920.0,
+          "x2": 2342.0,
+          "y2": 1964.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2114.5,
+          "y": 1942.0
+        },
+        "size": {
+          "width": 455.0,
+          "height": 44.0,
+          "area": 20020.0
+        }
+      }
+    },
+    {
+      "index_number": 49,
+      "type": "text",
+      "content": "UK watchdog to examine Microsoft's OpenAl partnership >",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.13240741193294525,
+        0.9013888835906982,
+        0.42901235818862915,
+        0.9236111044883728
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.132407,
+          "y1": 0.901389,
+          "x2": 0.429012,
+          "y2": 0.923611,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 429.0,
+          "y1": 1947.0,
+          "x2": 1390.0,
+          "y2": 1995.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 909.5,
+          "y": 1971.0
+        },
+        "size": {
+          "width": 961.0,
+          "height": 48.0,
+          "area": 46128.0
+        }
+      }
+    },
+    {
+      "index_number": 50,
+      "type": "text",
+      "content": "Founded: April 4, 1975, Albuquerque, NM",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5802469253540039,
+        0.917129635810852,
+        0.7478395104408264,
+        0.9375
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.580247,
+          "y1": 0.91713,
+          "x2": 0.74784,
+          "y2": 0.9375,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1880.0,
+          "y1": 1981.0,
+          "x2": 2423.0,
+          "y2": 2025.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2151.5,
+          "y": 2003.0
+        },
+        "size": {
+          "width": 543.0,
+          "height": 44.0,
+          "area": 23891.99
+        }
+      }
+    },
+    {
+      "index_number": 51,
+      "type": "text",
+      "content": "Waiting for www.google.com..",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.0009259259095415473,
+        0.9361110925674438,
+        0.10524691641330719,
+        0.9564814567565918
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.000926,
+          "y1": 0.936111,
+          "x2": 0.105247,
+          "y2": 0.956481,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 3.0,
+          "y1": 2022.0,
+          "x2": 341.0,
+          "y2": 2066.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 172.0,
+          "y": 2044.0
+        },
+        "size": {
+          "width": 338.0,
+          "height": 44.0,
+          "area": 14872.0
+        }
+      }
+    },
+    {
+      "index_number": 52,
+      "type": "text",
+      "content": "Founders: Rill Ga",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.5833333134651184,
+        0.9453703761100769,
+        0.6530864238739014,
+        0.9611111283302307
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.583333,
+          "y1": 0.94537,
+          "x2": 0.653086,
+          "y2": 0.961111,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1890.0,
+          "y1": 2042.0,
+          "x2": 2116.0,
+          "y2": 2076.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2003.0,
+          "y": 2059.0
+        },
+        "size": {
+          "width": 226.0,
+          "height": 34.0,
+          "area": 7684.01
+        }
+      }
+    },
+    {
+      "index_number": 53,
+      "type": "text",
+      "content": "Q Search",
+      "interactivity": false,
+      "source": "box_ocr_content_ocr",
+      "bbox": [
+        0.35370370745658875,
+        0.9652777910232544,
+        0.40154320001602173,
+        0.9925925731658936
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.353704,
+          "y1": 0.965278,
+          "x2": 0.401543,
+          "y2": 0.992593,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1146.0,
+          "y1": 2085.0,
+          "x2": 1301.0,
+          "y2": 2144.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1223.5,
+          "y": 2114.5
+        },
+        "size": {
+          "width": 155.0,
+          "height": 59.0,
+          "area": 9144.99
+        }
+      }
+    },
+    {
+      "index_number": 54,
+      "type": "icon",
+      "content": "Prediction ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.3983333110809326,
+        0.1497507095336914,
+        0.46010538935661316,
+        0.19198529422283173
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.398333,
+          "y1": 0.149751,
+          "x2": 0.460105,
+          "y2": 0.191985,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1290.6,
+          "y1": 323.46,
+          "x2": 1490.74,
+          "y2": 414.69,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1390.67,
+          "y": 369.07
+        },
+        "size": {
+          "width": 200.14,
+          "height": 91.23,
+          "area": 18258.25
+        }
+      }
+    },
+    {
+      "index_number": 55,
+      "type": "icon",
+      "content": "Perspectives ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.45993274450302124,
+        0.14940792322158813,
+        0.5323975086212158,
+        0.19202420115470886
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.459933,
+          "y1": 0.149408,
+          "x2": 0.532398,
+          "y2": 0.192024,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1490.18,
+          "y1": 322.72,
+          "x2": 1724.97,
+          "y2": 414.77,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1607.58,
+          "y": 368.75
+        },
+        "size": {
+          "width": 234.79,
+          "height": 92.05,
+          "area": 21612.31
+        }
+      }
+    },
+    {
+      "index_number": 56,
+      "type": "icon",
+      "content": "Stock forecast ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.3201878070831299,
+        0.15001198649406433,
+        0.39858779311180115,
+        0.19199463725090027
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.320188,
+          "y1": 0.150012,
+          "x2": 0.398588,
+          "y2": 0.191995,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1037.41,
+          "y1": 324.03,
+          "x2": 1291.42,
+          "y2": 414.71,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1164.42,
+          "y": 369.37
+        },
+        "size": {
+          "width": 254.02,
+          "height": 90.68,
+          "area": 23034.81
+        }
+      }
+    },
+    {
+      "index_number": 57,
+      "type": "icon",
+      "content": "Images ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.5323626399040222,
+        0.15026496350765228,
+        0.5829116106033325,
+        0.19190829992294312
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.532363,
+          "y1": 0.150265,
+          "x2": 0.582912,
+          "y2": 0.191908,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1724.85,
+          "y1": 324.57,
+          "x2": 1888.63,
+          "y2": 414.52,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1806.74,
+          "y": 369.55
+        },
+        "size": {
+          "width": 163.78,
+          "height": 89.95,
+          "area": 14731.83
+        }
+      }
+    },
+    {
+      "index_number": 58,
+      "type": "icon",
+      "content": "Compare ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.38134634494781494,
+        0.24641887843608856,
+        0.44547903537750244,
+        0.2860305905342102
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.381346,
+          "y1": 0.246419,
+          "x2": 0.445479,
+          "y2": 0.286031,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1235.56,
+          "y1": 532.26,
+          "x2": 1443.35,
+          "y2": 617.83,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1339.46,
+          "y": 575.05
+        },
+        "size": {
+          "width": 207.79,
+          "height": 85.56,
+          "area": 17778.78
+        }
+      }
+    },
+    {
+      "index_number": 59,
+      "type": "icon",
+      "content": "Financials ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.4467272460460663,
+        0.24680672585964203,
+        0.513112485408783,
+        0.28598588705062866
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.446727,
+          "y1": 0.246807,
+          "x2": 0.513112,
+          "y2": 0.285986,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1447.4,
+          "y1": 533.1,
+          "x2": 1662.48,
+          "y2": 617.73,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1554.94,
+          "y": 575.42
+        },
+        "size": {
+          "width": 215.09,
+          "height": 84.63,
+          "area": 18202.26
+        }
+      }
+    },
+    {
+      "index_number": 60,
+      "type": "icon",
+      "content": "Overview ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.3136774003505707,
+        0.2454298734664917,
+        0.3790990114212036,
+        0.2866203188896179
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.313677,
+          "y1": 0.24543,
+          "x2": 0.379099,
+          "y2": 0.28662,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1016.31,
+          "y1": 530.13,
+          "x2": 1228.28,
+          "y2": 619.1,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1122.3,
+          "y": 574.61
+        },
+        "size": {
+          "width": 211.97,
+          "height": 88.97,
+          "area": 18858.91
+        }
+      }
+    },
+    {
+      "index_number": 61,
+      "type": "icon",
+      "content": "Finance ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.11941421031951904,
+        0.1504969298839569,
+        0.17130422592163086,
+        0.1917465776205063
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.119414,
+          "y1": 0.150497,
+          "x2": 0.171304,
+          "y2": 0.191747,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 386.9,
+          "y1": 325.07,
+          "x2": 555.03,
+          "y2": 414.17,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 470.96,
+          "y": 369.62
+        },
+        "size": {
+          "width": 168.12,
+          "height": 89.1,
+          "area": 14979.69
+        }
+      }
+    },
+    {
+      "index_number": 62,
+      "type": "icon",
+      "content": "Shopping ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.21597810089588165,
+        0.14998023211956024,
+        0.27443623542785645,
+        0.19183564186096191
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.215978,
+          "y1": 0.14998,
+          "x2": 0.274436,
+          "y2": 0.191836,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 699.77,
+          "y1": 323.96,
+          "x2": 889.17,
+          "y2": 414.36,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 794.47,
+          "y": 369.16
+        },
+        "size": {
+          "width": 189.4,
+          "height": 90.41,
+          "area": 17123.61
+        }
+      }
+    },
+    {
+      "index_number": 63,
+      "type": "icon",
+      "content": "Videos ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.583513081073761,
+        0.15077412128448486,
+        0.6312772631645203,
+        0.19152775406837463
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.583513,
+          "y1": 0.150774,
+          "x2": 0.631277,
+          "y2": 0.191528,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1890.58,
+          "y1": 325.67,
+          "x2": 2045.34,
+          "y2": 413.7,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1967.96,
+          "y": 369.69
+        },
+        "size": {
+          "width": 154.76,
+          "height": 88.03,
+          "area": 13622.83
+        }
+      }
+    },
+    {
+      "index_number": 64,
+      "type": "icon",
+      "content": "In usd ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.2747344672679901,
+        0.1506498157978058,
+        0.3198869228363037,
+        0.19262416660785675
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.274734,
+          "y1": 0.15065,
+          "x2": 0.319887,
+          "y2": 0.192624,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 890.14,
+          "y1": 325.4,
+          "x2": 1036.43,
+          "y2": 416.07,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 963.29,
+          "y": 370.74
+        },
+        "size": {
+          "width": 146.29,
+          "height": 90.66,
+          "area": 13263.68
+        }
+      }
+    },
+    {
+      "index_number": 65,
+      "type": "icon",
+      "content": "NeWS ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.17195704579353333,
+        0.15070192515850067,
+        0.21506384015083313,
+        0.19246624410152435
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.171957,
+          "y1": 0.150702,
+          "x2": 0.215064,
+          "y2": 0.192466,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 557.14,
+          "y1": 325.52,
+          "x2": 696.81,
+          "y2": 415.73,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 626.97,
+          "y": 370.62
+        },
+        "size": {
+          "width": 139.67,
+          "height": 90.21,
+          "area": 12599.4
+        }
+      }
+    },
+    {
+      "index_number": 66,
+      "type": "icon",
+      "content": "Related ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.5809618830680847,
+        0.3631975054740906,
+        0.6982460021972656,
+        0.408547580242157
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.580962,
+          "y1": 0.363198,
+          "x2": 0.698246,
+          "y2": 0.408548,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1882.32,
+          "y1": 784.51,
+          "x2": 2262.32,
+          "y2": 882.46,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2072.32,
+          "y": 833.48
+        },
+        "size": {
+          "width": 380.0,
+          "height": 97.96,
+          "area": 37223.39
+        }
+      }
+    },
+    {
+      "index_number": 67,
+      "type": "icon",
+      "content": "Following ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.6973162889480591,
+        0.3628782629966736,
+        0.8139075040817261,
+        0.40829458832740784
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.697316,
+          "y1": 0.362878,
+          "x2": 0.813908,
+          "y2": 0.408295,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2259.3,
+          "y1": 783.82,
+          "x2": 2637.06,
+          "y2": 881.92,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2448.18,
+          "y": 832.87
+        },
+        "size": {
+          "width": 377.76,
+          "height": 98.1,
+          "area": 37057.54
+        }
+      }
+    },
+    {
+      "index_number": 68,
+      "type": "icon",
+      "content": "O ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.5190548896789551,
+        0.09854807704687119,
+        0.5440651774406433,
+        0.1323891580104828
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.519055,
+          "y1": 0.098548,
+          "x2": 0.544065,
+          "y2": 0.132389,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1681.74,
+          "y1": 212.86,
+          "x2": 1762.77,
+          "y2": 285.96,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1722.25,
+          "y": 249.41
+        },
+        "size": {
+          "width": 81.03,
+          "height": 73.1,
+          "area": 5923.27
+        }
+      }
+    },
+    {
+      "index_number": 69,
+      "type": "icon",
+      "content": "+ ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.9179561734199524,
+        0.03715265169739723,
+        0.9358803033828735,
+        0.0637921541929245
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.917956,
+          "y1": 0.037153,
+          "x2": 0.93588,
+          "y2": 0.063792,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2974.18,
+          "y1": 80.25,
+          "x2": 3032.25,
+          "y2": 137.79,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3003.22,
+          "y": 109.02
+        },
+        "size": {
+          "width": 58.07,
+          "height": 57.54,
+          "area": 3341.67
+        }
+      }
+    },
+    {
+      "index_number": 70,
+      "type": "icon",
+      "content": "X ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.43988534808158875,
+        0.09923876076936722,
+        0.462929368019104,
+        0.1331505924463272
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.439885,
+          "y1": 0.099239,
+          "x2": 0.462929,
+          "y2": 0.133151,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1425.23,
+          "y1": 214.36,
+          "x2": 1499.89,
+          "y2": 287.61,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1462.56,
+          "y": 250.98
+        },
+        "size": {
+          "width": 74.66,
+          "height": 73.25,
+          "area": 5469.0
+        }
+      }
+    },
+    {
+      "index_number": 71,
+      "type": "icon",
+      "content": "3 ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.8937766551971436,
+        0.09958743304014206,
+        0.915493369102478,
+        0.13627012073993683
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.893777,
+          "y1": 0.099587,
+          "x2": 0.915493,
+          "y2": 0.13627,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2895.84,
+          "y1": 215.11,
+          "x2": 2966.2,
+          "y2": 294.34,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2931.02,
+          "y": 254.73
+        },
+        "size": {
+          "width": 70.36,
+          "height": 79.23,
+          "area": 5575.12
+        }
+      }
+    },
+    {
+      "index_number": 72,
+      "type": "icon",
+      "content": "X ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.6260963082313538,
+        0.9654175043106079,
+        0.6469419002532959,
+        0.9930897951126099
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.626096,
+          "y1": 0.965418,
+          "x2": 0.646942,
+          "y2": 0.99309,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2028.55,
+          "y1": 2085.3,
+          "x2": 2096.09,
+          "y2": 2145.07,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2062.32,
+          "y": 2115.19
+        },
+        "size": {
+          "width": 67.54,
+          "height": 59.77,
+          "area": 4036.99
+        }
+      }
+    },
+    {
+      "index_number": 73,
+      "type": "icon",
+      "content": "All filters ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.7216381430625916,
+        0.15294255316257477,
+        0.7819145917892456,
+        0.18607710301876068
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.721638,
+          "y1": 0.152943,
+          "x2": 0.781915,
+          "y2": 0.186077,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2338.11,
+          "y1": 330.36,
+          "x2": 2533.4,
+          "y2": 401.93,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2435.76,
+          "y": 366.14
+        },
+        "size": {
+          "width": 195.3,
+          "height": 71.57,
+          "area": 13977.44
+        }
+      }
+    },
+    {
+      "index_number": 74,
+      "type": "icon",
+      "content": "Google ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.035064946860075,
+        0.10047180205583572,
+        0.09989633411169052,
+        0.13677342236042023
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.035065,
+          "y1": 0.100472,
+          "x2": 0.099896,
+          "y2": 0.136773,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 113.61,
+          "y1": 217.02,
+          "x2": 323.66,
+          "y2": 295.43,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 218.64,
+          "y": 256.22
+        },
+        "size": {
+          "width": 210.05,
+          "height": 78.41,
+          "area": 16470.63
+        }
+      }
+    },
+    {
+      "index_number": 75,
+      "type": "icon",
+      "content": "+ ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.3064368963241577,
+        0.003039468079805374,
+        0.32126614451408386,
+        0.02812732197344303
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.306437,
+          "y1": 0.003039,
+          "x2": 0.321266,
+          "y2": 0.028127,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 992.86,
+          "y1": 6.57,
+          "x2": 1040.9,
+          "y2": 60.76,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1016.88,
+          "y": 33.66
+        },
+        "size": {
+          "width": 48.05,
+          "height": 54.19,
+          "area": 2603.64
+        }
+      }
+    },
+    {
+      "index_number": 76,
+      "type": "icon",
+      "content": "N ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.6007387638092041,
+        0.9646891355514526,
+        0.6190357804298401,
+        0.9918221831321716
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.600739,
+          "y1": 0.964689,
+          "x2": 0.619036,
+          "y2": 0.991822,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1946.39,
+          "y1": 2083.73,
+          "x2": 2005.68,
+          "y2": 2142.34,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1976.03,
+          "y": 2113.03
+        },
+        "size": {
+          "width": 59.28,
+          "height": 58.61,
+          "area": 3474.38
+        }
+      }
+    },
+    {
+      "index_number": 77,
+      "type": "icon",
+      "content": "SafeSearch  ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.9112032651901245,
+        0.15237604081630707,
+        0.9831808805465698,
+        0.18762177228927612
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.911203,
+          "y1": 0.152376,
+          "x2": 0.983181,
+          "y2": 0.187622,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2952.3,
+          "y1": 329.13,
+          "x2": 3185.51,
+          "y2": 405.26,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3068.9,
+          "y": 367.2
+        },
+        "size": {
+          "width": 233.21,
+          "height": 76.13,
+          "area": 17754.27
+        }
+      }
+    },
+    {
+      "index_number": 78,
+      "type": "icon",
+      "content": "1D ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.13132722675800323,
+        0.47298717498779297,
+        0.15396440029144287,
+        0.49919891357421875
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.131327,
+          "y1": 0.472987,
+          "x2": 0.153964,
+          "y2": 0.499199,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 425.5,
+          "y1": 1021.65,
+          "x2": 498.84,
+          "y2": 1078.27,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 462.17,
+          "y": 1049.96
+        },
+        "size": {
+          "width": 73.34,
+          "height": 56.62,
+          "area": 4152.57
+        }
+      }
+    },
+    {
+      "index_number": 79,
+      "type": "icon",
+      "content": "O microsoft.com ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.5813608765602112,
+        0.706782341003418,
+        0.6743277907371521,
+        0.7407363057136536
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.581361,
+          "y1": 0.706782,
+          "x2": 0.674328,
+          "y2": 0.740736,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1883.61,
+          "y1": 1526.65,
+          "x2": 2184.82,
+          "y2": 1599.99,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2034.22,
+          "y": 1563.32
+        },
+        "size": {
+          "width": 301.21,
+          "height": 73.34,
+          "area": 22091.12
+        }
+      }
+    },
+    {
+      "index_number": 80,
+      "type": "icon",
+      "content": "+ Follow ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.48694902658462524,
+        0.3697420656681061,
+        0.5374685525894165,
+        0.39807507395744324
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.486949,
+          "y1": 0.369742,
+          "x2": 0.537469,
+          "y2": 0.398075,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1577.71,
+          "y1": 798.64,
+          "x2": 1741.4,
+          "y2": 859.84,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1659.56,
+          "y": 829.24
+        },
+        "size": {
+          "width": 163.68,
+          "height": 61.2,
+          "area": 10017.3
+        }
+      }
+    },
+    {
+      "index_number": 81,
+      "type": "icon",
+      "content": "More about Microsoft Corp> ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.23963221907615662,
+        0.7916275858879089,
+        0.4289482831954956,
+        0.8289127349853516
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.239632,
+          "y1": 0.791628,
+          "x2": 0.428948,
+          "y2": 0.828913,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 776.41,
+          "y1": 1709.92,
+          "x2": 1389.79,
+          "y2": 1790.45,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1083.1,
+          "y": 1750.18
+        },
+        "size": {
+          "width": 613.38,
+          "height": 80.54,
+          "area": 49399.45
+        }
+      }
+    },
+    {
+      "index_number": 82,
+      "type": "icon",
+      "content": " today's price of microsoft ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.11799617111682892,
+        0.09436125308275223,
+        0.44418835639953613,
+        0.14123743772506714
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.117996,
+          "y1": 0.094361,
+          "x2": 0.444188,
+          "y2": 0.141237,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 382.31,
+          "y1": 203.82,
+          "x2": 1439.17,
+          "y2": 305.07,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 910.74,
+          "y": 254.45
+        },
+        "size": {
+          "width": 1056.86,
+          "height": 101.25,
+          "area": 107010.05
+        }
+      }
+    },
+    {
+      "index_number": 83,
+      "type": "icon",
+      "content": "ENG ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.860543429851532,
+        0.9610306620597839,
+        0.8819591403007507,
+        0.9895327091217041
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.860543,
+          "y1": 0.961031,
+          "x2": 0.881959,
+          "y2": 0.989533,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2788.16,
+          "y1": 2075.83,
+          "x2": 2857.55,
+          "y2": 2137.39,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2822.85,
+          "y": 2106.61
+        },
+        "size": {
+          "width": 69.39,
+          "height": 61.56,
+          "area": 4271.76
+        }
+      }
+    },
+    {
+      "index_number": 84,
+      "type": "icon",
+      "content": "Microsoft Corp ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.1779007911682129,
+        0.23224729299545288,
+        0.3034032881259918,
+        0.2686539590358734
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.177901,
+          "y1": 0.232247,
+          "x2": 0.303403,
+          "y2": 0.268654,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 576.4,
+          "y1": 501.65,
+          "x2": 983.03,
+          "y2": 580.29,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 779.71,
+          "y": 540.97
+        },
+        "size": {
+          "width": 406.63,
+          "height": 78.64,
+          "area": 31976.58
+        }
+      }
+    },
+    {
+      "index_number": 85,
+      "type": "icon",
+      "content": "Apple Inc  0.74% 195.71USD ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.5803725719451904,
+        0.41044899821281433,
+        0.8155271410942078,
+        0.4689382016658783
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.580373,
+          "y1": 0.410449,
+          "x2": 0.815527,
+          "y2": 0.468938,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1880.41,
+          "y1": 886.57,
+          "x2": 2642.31,
+          "y2": 1012.91,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2261.36,
+          "y": 949.74
+        },
+        "size": {
+          "width": 761.9,
+          "height": 126.34,
+          "area": 96256.02
+        }
+      }
+    },
+    {
+      "index_number": 86,
+      "type": "icon",
+      "content": "11:28 AM 12/9/2023 ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.9358112215995789,
+        0.9593424201011658,
+        0.9929587841033936,
+        0.9937028884887695
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.935811,
+          "y1": 0.959342,
+          "x2": 0.992959,
+          "y2": 0.993703,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 3032.03,
+          "y1": 2072.18,
+          "x2": 3217.19,
+          "y2": 2146.4,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3124.61,
+          "y": 2109.29
+        },
+        "size": {
+          "width": 185.16,
+          "height": 74.22,
+          "area": 13742.18
+        }
+      }
+    },
+    {
+      "index_number": 87,
+      "type": "icon",
+      "content": "aul A ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.6681788563728333,
+        0.9424835443496704,
+        0.7092710137367249,
+        0.9601786136627197
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.668179,
+          "y1": 0.942484,
+          "x2": 0.709271,
+          "y2": 0.960179,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2164.9,
+          "y1": 2035.76,
+          "x2": 2298.04,
+          "y2": 2073.99,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2231.47,
+          "y": 2054.88
+        },
+        "size": {
+          "width": 133.14,
+          "height": 38.22,
+          "area": 5088.74
+        }
+      }
+    },
+    {
+      "index_number": 88,
+      "type": "icon",
+      "content": "Explore more ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.5794314742088318,
+        0.3221304416656494,
+        0.8148350119590759,
+        0.36263972520828247
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.579431,
+          "y1": 0.32213,
+          "x2": 0.814835,
+          "y2": 0.36264,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1877.36,
+          "y1": 695.8,
+          "x2": 2640.07,
+          "y2": 783.3,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2258.71,
+          "y": 739.55
+        },
+        "size": {
+          "width": 762.71,
+          "height": 87.5,
+          "area": 66736.94
+        }
+      }
+    },
+    {
+      "index_number": 89,
+      "type": "icon",
+      "content": "Tools ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.7858268022537231,
+        0.15440121293067932,
+        0.819826602935791,
+        0.18375316262245178
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.785827,
+          "y1": 0.154401,
+          "x2": 0.819827,
+          "y2": 0.183753,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2546.08,
+          "y1": 333.51,
+          "x2": 2656.24,
+          "y2": 396.91,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2601.16,
+          "y": 365.21
+        },
+        "size": {
+          "width": 110.16,
+          "height": 63.4,
+          "area": 6984.13
+        }
+      }
+    },
+    {
+      "index_number": 90,
+      "type": "icon",
+      "content": " 1.95% ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.7665872573852539,
+        0.5838294625282288,
+        0.8141978979110718,
+        0.6125807762145996
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.766587,
+          "y1": 0.583829,
+          "x2": 0.814198,
+          "y2": 0.612581,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2483.74,
+          "y1": 1261.07,
+          "x2": 2638.0,
+          "y2": 1323.17,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2560.87,
+          "y": 1292.12
+        },
+        "size": {
+          "width": 154.26,
+          "height": 62.1,
+          "area": 9579.89
+        }
+      }
+    },
+    {
+      "index_number": 91,
+      "type": "icon",
+      "content": "Amazon.com Inc  0.37% 147.42 USD ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.58062744140625,
+        0.4664696455001831,
+        0.8151495456695557,
+        0.519865095615387
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.580627,
+          "y1": 0.46647,
+          "x2": 0.81515,
+          "y2": 0.519865,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1881.23,
+          "y1": 1007.57,
+          "x2": 2641.08,
+          "y2": 1122.91,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2261.16,
+          "y": 1065.24
+        },
+        "size": {
+          "width": 759.85,
+          "height": 115.33,
+          "area": 87636.86
+        }
+      }
+    },
+    {
+      "index_number": 92,
+      "type": "icon",
+      "content": "370 ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.13233068585395813,
+        0.622215986251831,
+        0.14972810447216034,
+        0.6437154412269592
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.132331,
+          "y1": 0.622216,
+          "x2": 0.149728,
+          "y2": 0.643715,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 428.75,
+          "y1": 1343.99,
+          "x2": 485.12,
+          "y2": 1390.43,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 456.94,
+          "y": 1367.21
+        },
+        "size": {
+          "width": 56.37,
+          "height": 46.44,
+          "area": 2617.65
+        }
+      }
+    },
+    {
+      "index_number": 93,
+      "type": "icon",
+      "content": "Disclaimer ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.5766477584838867,
+        0.6160768270492554,
+        0.81377774477005,
+        0.6513486504554749
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.576648,
+          "y1": 0.616077,
+          "x2": 0.813778,
+          "y2": 0.651349,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1868.34,
+          "y1": 1330.73,
+          "x2": 2636.64,
+          "y2": 1406.91,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2252.49,
+          "y": 1368.82
+        },
+        "size": {
+          "width": 768.3,
+          "height": 76.19,
+          "area": 58534.67
+        }
+      }
+    },
+    {
+      "index_number": 94,
+      "type": "icon",
+      "content": "close ",
+      "interactivity": true,
+      "source": "box_yolo_content_ocr",
+      "bbox": [
+        0.5036130547523499,
+        0.608656644821167,
+        0.5246309638023376,
+        0.624112069606781
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.503613,
+          "y1": 0.608657,
+          "x2": 0.524631,
+          "y2": 0.624112,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1631.71,
+          "y1": 1314.7,
+          "x2": 1699.8,
+          "y2": 1348.08,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1665.76,
+          "y": 1331.39
+        },
+        "size": {
+          "width": 68.1,
+          "height": 33.38,
+          "area": 2273.37
+        }
+      }
+    },
+    {
+      "index_number": 95,
+      "type": "icon",
+      "content": "Podcast",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.49575793743133545,
+        0.1021047830581665,
+        0.5156983733177185,
+        0.13074597716331482
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.495758,
+          "y1": 0.102105,
+          "x2": 0.515698,
+          "y2": 0.130746,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1606.26,
+          "y1": 220.55,
+          "x2": 1670.86,
+          "y2": 282.41,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1638.56,
+          "y": 251.48
+        },
+        "size": {
+          "width": 64.61,
+          "height": 61.86,
+          "area": 3996.91
+        }
+      }
+    },
+    {
+      "index_number": 96,
+      "type": "icon",
+      "content": "Four-point star",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.8948700428009033,
+        0.038113921880722046,
+        0.9109249114990234,
+        0.06523777544498444
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.89487,
+          "y1": 0.038114,
+          "x2": 0.910925,
+          "y2": 0.065238,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2899.38,
+          "y1": 82.33,
+          "x2": 2951.4,
+          "y2": 140.91,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2925.39,
+          "y": 111.62
+        },
+        "size": {
+          "width": 52.02,
+          "height": 58.59,
+          "area": 3047.59
+        }
+      }
+    },
+    {
+      "index_number": 97,
+      "type": "icon",
+      "content": "More options",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9206956624984741,
+        0.09884793311357498,
+        0.9445840716362,
+        0.13618700206279755
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.920696,
+          "y1": 0.098848,
+          "x2": 0.944584,
+          "y2": 0.136187,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2983.05,
+          "y1": 213.51,
+          "x2": 3060.45,
+          "y2": 294.16,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3021.75,
+          "y": 253.84
+        },
+        "size": {
+          "width": 77.4,
+          "height": 80.65,
+          "area": 6242.37
+        }
+      }
+    },
+    {
+      "index_number": 98,
+      "type": "icon",
+      "content": "Close",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.13678717613220215,
+        0.005319329909980297,
+        0.14964671432971954,
+        0.02692839503288269
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.136787,
+          "y1": 0.005319,
+          "x2": 0.149647,
+          "y2": 0.026928,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 443.19,
+          "y1": 11.49,
+          "x2": 484.86,
+          "y2": 58.17,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 464.02,
+          "y": 34.83
+        },
+        "size": {
+          "width": 41.66,
+          "height": 46.68,
+          "area": 1944.73
+        }
+      }
+    },
+    {
+      "index_number": 99,
+      "type": "icon",
+      "content": "A",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9567389488220215,
+        0.03679417073726654,
+        0.9760915040969849,
+        0.06351661682128906
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.956739,
+          "y1": 0.036794,
+          "x2": 0.976092,
+          "y2": 0.063517,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 3099.83,
+          "y1": 79.48,
+          "x2": 3162.54,
+          "y2": 137.2,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3131.19,
+          "y": 108.34
+        },
+        "size": {
+          "width": 62.7,
+          "height": 57.72,
+          "area": 3619.21
+        }
+      }
+    },
+    {
+      "index_number": 100,
+      "type": "icon",
+      "content": "Page Break",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9381696581840515,
+        0.036981161683797836,
+        0.9558073282241821,
+        0.06346681714057922
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.93817,
+          "y1": 0.036981,
+          "x2": 0.955807,
+          "y2": 0.063467,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 3039.67,
+          "y1": 79.88,
+          "x2": 3096.82,
+          "y2": 137.09,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3068.24,
+          "y": 108.48
+        },
+        "size": {
+          "width": 57.15,
+          "height": 57.21,
+          "area": 3269.27
+        }
+      }
+    },
+    {
+      "index_number": 101,
+      "type": "icon",
+      "content": "Dictate",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.4702099859714508,
+        0.10164064168930054,
+        0.48990222811698914,
+        0.13064277172088623
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.47021,
+          "y1": 0.101641,
+          "x2": 0.489902,
+          "y2": 0.130643,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1523.48,
+          "y1": 219.54,
+          "x2": 1587.28,
+          "y2": 282.19,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1555.38,
+          "y": 250.87
+        },
+        "size": {
+          "width": 63.8,
+          "height": 62.64,
+          "area": 3996.9
+        }
+      }
+    },
+    {
+      "index_number": 102,
+      "type": "icon",
+      "content": "Paste",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.45138105750083923,
+        0.9612478613853455,
+        0.48683038353919983,
+        0.9922505617141724
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.451381,
+          "y1": 0.961248,
+          "x2": 0.48683,
+          "y2": 0.992251,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1462.47,
+          "y1": 2076.3,
+          "x2": 1577.33,
+          "y2": 2143.26,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1519.9,
+          "y": 2109.78
+        },
+        "size": {
+          "width": 114.86,
+          "height": 66.97,
+          "area": 7691.42
+        }
+      }
+    },
+    {
+      "index_number": 103,
+      "type": "icon",
+      "content": "Delete",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9472597241401672,
+        0.0,
+        0.9679931402206421,
+        0.027167916297912598
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.94726,
+          "y1": 0.0,
+          "x2": 0.967993,
+          "y2": 0.027168,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 3069.12,
+          "y1": 0.0,
+          "x2": 3136.3,
+          "y2": 58.68,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3102.71,
+          "y": 29.34
+        },
+        "size": {
+          "width": 67.18,
+          "height": 58.68,
+          "area": 3942.08
+        }
+      }
+    },
+    {
+      "index_number": 104,
+      "type": "icon",
+      "content": "Close",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.04449310898780823,
+        0.03839007765054703,
+        0.06214282661676407,
+        0.06369413435459137
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.044493,
+          "y1": 0.03839,
+          "x2": 0.062143,
+          "y2": 0.063694,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 144.16,
+          "y1": 82.92,
+          "x2": 201.34,
+          "y2": 137.58,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 172.75,
+          "y": 110.25
+        },
+        "size": {
+          "width": 57.19,
+          "height": 54.66,
+          "area": 3125.55
+        }
+      }
+    },
+    {
+      "index_number": 105,
+      "type": "icon",
+      "content": "Google Chrome web browser",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.4886094331741333,
+        0.9587822556495667,
+        0.5148773789405823,
+        0.9986260533332825
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.488609,
+          "y1": 0.958782,
+          "x2": 0.514877,
+          "y2": 0.998626,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1583.09,
+          "y1": 2070.97,
+          "x2": 1668.2,
+          "y2": 2157.03,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1625.65,
+          "y": 2114.0
+        },
+        "size": {
+          "width": 85.11,
+          "height": 86.06,
+          "area": 7324.63
+        }
+      }
+    },
+    {
+      "index_number": 106,
+      "type": "icon",
+      "content": "Microsoft Edge browser",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.5157731175422668,
+        0.9601584076881409,
+        0.5408418774604797,
+        0.9983739852905273
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.515773,
+          "y1": 0.960158,
+          "x2": 0.540842,
+          "y2": 0.998374,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1671.1,
+          "y1": 2073.94,
+          "x2": 1752.33,
+          "y2": 2156.49,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1711.72,
+          "y": 2115.21
+        },
+        "size": {
+          "width": 81.22,
+          "height": 82.55,
+          "area": 6704.59
+        }
+      }
+    },
+    {
+      "index_number": 107,
+      "type": "icon",
+      "content": "Max",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.38228723406791687,
+        0.469655841588974,
+        0.4242677688598633,
+        0.49854645133018494
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.382287,
+          "y1": 0.469656,
+          "x2": 0.424268,
+          "y2": 0.498546,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1238.61,
+          "y1": 1014.46,
+          "x2": 1374.63,
+          "y2": 1076.86,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1306.62,
+          "y": 1045.66
+        },
+        "size": {
+          "width": 136.02,
+          "height": 62.4,
+          "area": 8487.96
+        }
+      }
+    },
+    {
+      "index_number": 108,
+      "type": "icon",
+      "content": "Microsoft Outlook",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.5429978966712952,
+        0.9617903828620911,
+        0.5688149929046631,
+        0.9943393468856812
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.542998,
+          "y1": 0.96179,
+          "x2": 0.568815,
+          "y2": 0.994339,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1759.31,
+          "y1": 2077.47,
+          "x2": 1842.96,
+          "y2": 2147.77,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1801.14,
+          "y": 2112.62
+        },
+        "size": {
+          "width": 83.65,
+          "height": 70.31,
+          "area": 5880.89
+        }
+      }
+    },
+    {
+      "index_number": 109,
+      "type": "icon",
+      "content": "A",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9505224227905273,
+        0.10033122450113297,
+        0.9742482900619507,
+        0.1365731656551361
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.950522,
+          "y1": 0.100331,
+          "x2": 0.974248,
+          "y2": 0.136573,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 3079.69,
+          "y1": 216.72,
+          "x2": 3156.56,
+          "y2": 295.0,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3118.13,
+          "y": 255.86
+        },
+        "size": {
+          "width": 76.87,
+          "height": 78.28,
+          "area": 6017.72
+        }
+      }
+    },
+    {
+      "index_number": 110,
+      "type": "icon",
+      "content": "More",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9801959991455078,
+        0.037751637399196625,
+        0.9937732815742493,
+        0.06289298087358475
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.980196,
+          "y1": 0.037752,
+          "x2": 0.993773,
+          "y2": 0.062893,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 3175.84,
+          "y1": 81.54,
+          "x2": 3219.83,
+          "y2": 135.85,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3197.83,
+          "y": 108.7
+        },
+        "size": {
+          "width": 43.99,
+          "height": 54.31,
+          "area": 2388.91
+        }
+      }
+    },
+    {
+      "index_number": 111,
+      "type": "icon",
+      "content": "folder",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.5698503851890564,
+        0.9620517492294312,
+        0.5952295660972595,
+        0.9917725920677185
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.56985,
+          "y1": 0.962052,
+          "x2": 0.59523,
+          "y2": 0.991773,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1846.32,
+          "y1": 2078.03,
+          "x2": 1928.54,
+          "y2": 2142.23,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1887.43,
+          "y": 2110.13
+        },
+        "size": {
+          "width": 82.23,
+          "height": 64.2,
+          "area": 5278.83
+        }
+      }
+    },
+    {
+      "index_number": 112,
+      "type": "icon",
+      "content": "Minimize",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9173030853271484,
+        0.0007393956184387207,
+        0.9393016695976257,
+        0.026016412302851677
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.917303,
+          "y1": 0.000739,
+          "x2": 0.939302,
+          "y2": 0.026016,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2972.06,
+          "y1": 1.6,
+          "x2": 3043.34,
+          "y2": 56.2,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3007.7,
+          "y": 28.9
+        },
+        "size": {
+          "width": 71.28,
+          "height": 54.6,
+          "area": 3891.52
+        }
+      }
+    },
+    {
+      "index_number": 113,
+      "type": "icon",
+      "content": "New",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.6547249555587769,
+        0.9623479843139648,
+        0.6759129762649536,
+        0.9931371808052063
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.654725,
+          "y1": 0.962348,
+          "x2": 0.675913,
+          "y2": 0.993137,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2121.31,
+          "y1": 2078.67,
+          "x2": 2189.96,
+          "y2": 2145.18,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2155.63,
+          "y": 2111.92
+        },
+        "size": {
+          "width": 68.65,
+          "height": 66.5,
+          "area": 4565.49
+        }
+      }
+    },
+    {
+      "index_number": 114,
+      "type": "icon",
+      "content": "Back",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.005592539440840483,
+        0.03769823908805847,
+        0.02158382348716259,
+        0.0635552927851677
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.005593,
+          "y1": 0.037698,
+          "x2": 0.021584,
+          "y2": 0.063555,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 18.12,
+          "y1": 81.43,
+          "x2": 69.93,
+          "y2": 137.28,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 44.03,
+          "y": 109.35
+        },
+        "size": {
+          "width": 51.81,
+          "height": 55.85,
+          "area": 2893.75
+        }
+      }
+    },
+    {
+      "index_number": 115,
+      "type": "icon",
+      "content": "Share",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.8743232488632202,
+        0.036519765853881836,
+        0.8909843564033508,
+        0.06462857872247696
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.874323,
+          "y1": 0.03652,
+          "x2": 0.890984,
+          "y2": 0.064629,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2832.81,
+          "y1": 78.88,
+          "x2": 2886.79,
+          "y2": 139.6,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2859.8,
+          "y": 109.24
+        },
+        "size": {
+          "width": 53.98,
+          "height": 60.72,
+          "area": 3277.52
+        }
+      }
+    },
+    {
+      "index_number": 116,
+      "type": "icon",
+      "content": "Forward",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.02458079531788826,
+        0.03732737526297569,
+        0.041715484112501144,
+        0.06326304376125336
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.024581,
+          "y1": 0.037327,
+          "x2": 0.041715,
+          "y2": 0.063263,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 79.64,
+          "y1": 80.63,
+          "x2": 135.16,
+          "y2": 136.65,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 107.4,
+          "y": 108.64
+        },
+        "size": {
+          "width": 55.52,
+          "height": 56.02,
+          "area": 3110.09
+        }
+      }
+    },
+    {
+      "index_number": 117,
+      "type": "icon",
+      "content": "Close",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9757465124130249,
+        0.0,
+        0.9956996440887451,
+        0.027003545314073563
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.975747,
+          "y1": 0.0,
+          "x2": 0.9957,
+          "y2": 0.027004,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 3161.42,
+          "y1": 0.0,
+          "x2": 3226.07,
+          "y2": 58.33,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3193.74,
+          "y": 29.16
+        },
+        "size": {
+          "width": 64.65,
+          "height": 58.33,
+          "area": 3770.77
+        }
+      }
+    },
+    {
+      "index_number": 118,
+      "type": "icon",
+      "content": "Close",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.28424033522605896,
+        0.0044715870171785355,
+        0.29702433943748474,
+        0.026845023036003113
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.28424,
+          "y1": 0.004472,
+          "x2": 0.297024,
+          "y2": 0.026845,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 920.94,
+          "y1": 9.66,
+          "x2": 962.36,
+          "y2": 57.99,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 941.65,
+          "y": 33.82
+        },
+        "size": {
+          "width": 41.42,
+          "height": 48.33,
+          "area": 2001.7
+        }
+      }
+    },
+    {
+      "index_number": 119,
+      "type": "icon",
+      "content": "moving up or down.",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9894094467163086,
+        0.07057605683803558,
+        0.9998903870582581,
+        0.08972649276256561
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.989409,
+          "y1": 0.070576,
+          "x2": 0.99989,
+          "y2": 0.089726,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 3205.69,
+          "y1": 152.44,
+          "x2": 3239.64,
+          "y2": 193.81,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3222.67,
+          "y": 173.13
+        },
+        "size": {
+          "width": 33.96,
+          "height": 41.36,
+          "area": 1404.68
+        }
+      }
+    },
+    {
+      "index_number": 120,
+      "type": "icon",
+      "content": "Go to next month month",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.8918487429618835,
+        0.0004936929908581078,
+        0.9120025038719177,
+        0.026171213015913963
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.891849,
+          "y1": 0.000494,
+          "x2": 0.912003,
+          "y2": 0.026171,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2889.59,
+          "y1": 1.07,
+          "x2": 2954.89,
+          "y2": 56.53,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2922.24,
+          "y": 28.8
+        },
+        "size": {
+          "width": 65.3,
+          "height": 55.46,
+          "area": 3621.66
+        }
+      }
+    },
+    {
+      "index_number": 121,
+      "type": "icon",
+      "content": "Clone One",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.839040219783783,
+        0.9628174901008606,
+        0.8574603796005249,
+        0.9892727136611938
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.83904,
+          "y1": 0.962817,
+          "x2": 0.85746,
+          "y2": 0.989273,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2718.49,
+          "y1": 2079.69,
+          "x2": 2778.17,
+          "y2": 2136.83,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2748.33,
+          "y": 2108.26
+        },
+        "size": {
+          "width": 59.68,
+          "height": 57.14,
+          "area": 3410.39
+        }
+      }
+    },
+    {
+      "index_number": 122,
+      "type": "icon",
+      "content": "Move Up",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.7998685240745544,
+        0.9637819528579712,
+        0.8165774345397949,
+        0.9889885783195496
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.799869,
+          "y1": 0.963782,
+          "x2": 0.816577,
+          "y2": 0.988989,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2591.57,
+          "y1": 2081.77,
+          "x2": 2645.71,
+          "y2": 2136.22,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2618.64,
+          "y": 2108.99
+        },
+        "size": {
+          "width": 54.14,
+          "height": 54.45,
+          "area": 2947.55
+        }
+      }
+    },
+    {
+      "index_number": 123,
+      "type": "icon",
+      "content": "Share",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.8186586499214172,
+        0.9631995558738708,
+        0.835605263710022,
+        0.9885257482528687
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.818659,
+          "y1": 0.9632,
+          "x2": 0.835605,
+          "y2": 0.988526,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2652.45,
+          "y1": 2080.51,
+          "x2": 2707.36,
+          "y2": 2135.22,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2679.91,
+          "y": 2107.86
+        },
+        "size": {
+          "width": 54.91,
+          "height": 54.7,
+          "area": 3003.67
+        }
+      }
+    },
+    {
+      "index_number": 124,
+      "type": "icon",
+      "content": "search functionality.",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.3510828912258148,
+        0.9619058966636658,
+        0.3706696629524231,
+        0.9916377067565918
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.351083,
+          "y1": 0.961906,
+          "x2": 0.37067,
+          "y2": 0.991638,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1137.51,
+          "y1": 2077.72,
+          "x2": 1200.97,
+          "y2": 2141.94,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1169.24,
+          "y": 2109.83
+        },
+        "size": {
+          "width": 63.46,
+          "height": 64.22,
+          "area": 4075.52
+        }
+      }
+    },
+    {
+      "index_number": 125,
+      "type": "icon",
+      "content": "Windows",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.324326753616333,
+        0.9626235365867615,
+        0.3462883234024048,
+        0.9908406734466553
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.324327,
+          "y1": 0.962624,
+          "x2": 0.346288,
+          "y2": 0.990841,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1050.82,
+          "y1": 2079.27,
+          "x2": 1121.97,
+          "y2": 2140.22,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1086.4,
+          "y": 2109.74
+        },
+        "size": {
+          "width": 71.16,
+          "height": 60.95,
+          "area": 4336.86
+        }
+      }
+    },
+    {
+      "index_number": 126,
+      "type": "icon",
+      "content": "Reload",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.15874914824962616,
+        0.0025850001256912947,
+        0.17011959850788116,
+        0.028465520590543747
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.158749,
+          "y1": 0.002585,
+          "x2": 0.17012,
+          "y2": 0.028466,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 514.35,
+          "y1": 5.58,
+          "x2": 551.19,
+          "y2": 61.49,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 532.77,
+          "y": 33.53
+        },
+        "size": {
+          "width": 36.84,
+          "height": 55.9,
+          "area": 2059.44
+        }
+      }
+    },
+    {
+      "index_number": 127,
+      "type": "icon",
+      "content": "M0,0L9,0 4.5,5z",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9887604713439941,
+        0.9387179613113403,
+        1.0,
+        0.9557767510414124
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.98876,
+          "y1": 0.938718,
+          "x2": 1.0,
+          "y2": 0.955777,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 3203.58,
+          "y1": 2027.63,
+          "x2": 3240.0,
+          "y2": 2064.48,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3221.79,
+          "y": 2046.05
+        },
+        "size": {
+          "width": 36.42,
+          "height": 36.85,
+          "area": 1341.82
+        }
+      }
+    },
+    {
+      "index_number": 128,
+      "type": "icon",
+      "content": "Microsoft",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.1361791044473648,
+        0.2379736751317978,
+        0.1663362830877304,
+        0.29126280546188354
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.136179,
+          "y1": 0.237974,
+          "x2": 0.166336,
+          "y2": 0.291263,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 441.22,
+          "y1": 514.02,
+          "x2": 538.93,
+          "y2": 629.13,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 490.07,
+          "y": 571.58
+        },
+        "size": {
+          "width": 97.71,
+          "height": 115.1,
+          "area": 11246.78
+        }
+      }
+    },
+    {
+      "index_number": 129,
+      "type": "icon",
+      "content": "Togglebar",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9169208407402039,
+        0.9594700336456299,
+        0.9317630529403687,
+        0.9908371567726135
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.916921,
+          "y1": 0.95947,
+          "x2": 0.931763,
+          "y2": 0.990837,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2970.82,
+          "y1": 2072.46,
+          "x2": 3018.91,
+          "y2": 2140.21,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2994.87,
+          "y": 2106.33
+        },
+        "size": {
+          "width": 48.09,
+          "height": 67.75,
+          "area": 3258.16
+        }
+      }
+    },
+    {
+      "index_number": 130,
+      "type": "icon",
+      "content": "Health monitoring or chart.",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.1906658560037613,
+        0.5704577565193176,
+        0.2217569351196289,
+        0.6217756271362305
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.190666,
+          "y1": 0.570458,
+          "x2": 0.221757,
+          "y2": 0.621776,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 617.76,
+          "y1": 1232.19,
+          "x2": 718.49,
+          "y2": 1343.04,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 668.12,
+          "y": 1287.61
+        },
+        "size": {
+          "width": 100.74,
+          "height": 110.85,
+          "area": 11166.14
+        }
+      }
+    },
+    {
+      "index_number": 131,
+      "type": "icon",
+      "content": "bill gates",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.6262878179550171,
+        0.9417328834533691,
+        0.6665886044502258,
+        0.9594008922576904
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.626288,
+          "y1": 0.941733,
+          "x2": 0.666589,
+          "y2": 0.959401,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2029.17,
+          "y1": 2034.14,
+          "x2": 2159.75,
+          "y2": 2072.31,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2094.46,
+          "y": 2053.22
+        },
+        "size": {
+          "width": 130.57,
+          "height": 38.16,
+          "area": 4983.1
+        }
+      }
+    },
+    {
+      "index_number": 132,
+      "type": "icon",
+      "content": "WiFi",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.8872429728507996,
+        0.9614245295524597,
+        0.9214659929275513,
+        0.9910035133361816
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.887243,
+          "y1": 0.961425,
+          "x2": 0.921466,
+          "y2": 0.991004,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2874.67,
+          "y1": 2076.68,
+          "x2": 2985.55,
+          "y2": 2140.57,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2930.11,
+          "y": 2108.62
+        },
+        "size": {
+          "width": 110.88,
+          "height": 63.89,
+          "area": 7084.36
+        }
+      }
+    },
+    {
+      "index_number": 133,
+      "type": "icon",
+      "content": "M0,0L9,0 4.5,5z",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.6430304050445557,
+        0.14847111701965332,
+        0.6902583837509155,
+        0.1920415461063385
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.64303,
+          "y1": 0.148471,
+          "x2": 0.690258,
+          "y2": 0.192042,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2083.42,
+          "y1": 320.7,
+          "x2": 2236.44,
+          "y2": 414.81,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2159.93,
+          "y": 367.75
+        },
+        "size": {
+          "width": 153.02,
+          "height": 94.11,
+          "area": 14400.91
+        }
+      }
+    },
+    {
+      "index_number": 134,
+      "type": "icon",
+      "content": "Forward",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.41882336139678955,
+        0.8988117575645447,
+        0.43108588457107544,
+        0.9239288568496704
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.418823,
+          "y1": 0.898812,
+          "x2": 0.431086,
+          "y2": 0.923929,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1356.99,
+          "y1": 1941.43,
+          "x2": 1396.72,
+          "y2": 1995.69,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1376.85,
+          "y": 1968.56
+        },
+        "size": {
+          "width": 39.73,
+          "height": 54.25,
+          "area": 2155.5
+        }
+      }
+    },
+    {
+      "index_number": 135,
+      "type": "icon",
+      "content": "Mountain",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.16660650074481964,
+        0.572621762752533,
+        0.19199493527412415,
+        0.6229581832885742
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.166607,
+          "y1": 0.572622,
+          "x2": 0.191995,
+          "y2": 0.622958,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 539.81,
+          "y1": 1236.86,
+          "x2": 622.06,
+          "y2": 1345.59,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 580.93,
+          "y": 1291.23
+        },
+        "size": {
+          "width": 82.26,
+          "height": 108.73,
+          "area": 8943.7
+        }
+      }
+    },
+    {
+      "index_number": 136,
+      "type": "icon",
+      "content": "M0,0L9,0 4.5,5z",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9935697317123413,
+        0.9579067826271057,
+        1.0,
+        0.9956866502761841
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.99357,
+          "y1": 0.957907,
+          "x2": 1.0,
+          "y2": 0.995687,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 3219.17,
+          "y1": 2069.08,
+          "x2": 3240.0,
+          "y2": 2150.68,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3229.58,
+          "y": 2109.88
+        },
+        "size": {
+          "width": 20.83,
+          "height": 81.6,
+          "area": 1700.15
+        }
+      }
+    },
+    {
+      "index_number": 137,
+      "type": "icon",
+      "content": "M0,0L9,0 4.5,5z",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        2.9990076654939912e-05,
+        0.08797696977853775,
+        0.008195946924388409,
+        0.15628772974014282
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 3e-05,
+          "y1": 0.087977,
+          "x2": 0.008196,
+          "y2": 0.156288,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 0.1,
+          "y1": 190.03,
+          "x2": 26.55,
+          "y2": 337.58,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 13.33,
+          "y": 263.81
+        },
+        "size": {
+          "width": 26.46,
+          "height": 147.55,
+          "area": 3903.87
+        }
+      }
+    },
+    {
+      "index_number": 138,
+      "type": "icon",
+      "content": "M0,0L9,0 4.5,5z",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9939338564872742,
+        0.0378265455365181,
+        0.9996001720428467,
+        0.06287110596895218
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.993934,
+          "y1": 0.037827,
+          "x2": 0.9996,
+          "y2": 0.062871,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 3220.35,
+          "y1": 81.71,
+          "x2": 3238.7,
+          "y2": 135.8,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3229.53,
+          "y": 108.75
+        },
+        "size": {
+          "width": 18.36,
+          "height": 54.1,
+          "area": 993.15
+        }
+      }
+    },
+    {
+      "index_number": 139,
+      "type": "icon",
+      "content": "M0,0L9,0 4.5,5z",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.7806854844093323,
+        0.9641880989074707,
+        0.7943218350410461,
+        0.9897398948669434
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.780685,
+          "y1": 0.964188,
+          "x2": 0.794322,
+          "y2": 0.98974,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 2529.42,
+          "y1": 2082.65,
+          "x2": 2573.6,
+          "y2": 2137.84,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 2551.51,
+          "y": 2110.24
+        },
+        "size": {
+          "width": 44.18,
+          "height": 55.19,
+          "area": 2438.48
+        }
+      }
+    },
+    {
+      "index_number": 140,
+      "type": "icon",
+      "content": "M0,0L9,0 4.5,5z",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.00014745444059371948,
+        0.0370703786611557,
+        0.004562931600958109,
+        0.0642547756433487
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.000147,
+          "y1": 0.03707,
+          "x2": 0.004563,
+          "y2": 0.064255,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 0.48,
+          "y1": 80.07,
+          "x2": 14.78,
+          "y2": 138.79,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 7.63,
+          "y": 109.43
+        },
+        "size": {
+          "width": 14.31,
+          "height": 58.72,
+          "area": 840.03
+        }
+      }
+    },
+    {
+      "index_number": 141,
+      "type": "icon",
+      "content": "Calendar",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.1442340761423111,
+        0.5770862698554993,
+        0.1666739135980606,
+        0.6215808391571045
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.144234,
+          "y1": 0.577086,
+          "x2": 0.166674,
+          "y2": 0.621581,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 467.32,
+          "y1": 1246.51,
+          "x2": 540.02,
+          "y2": 1342.61,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 503.67,
+          "y": 1294.56
+        },
+        "size": {
+          "width": 72.71,
+          "height": 96.11,
+          "area": 6987.56
+        }
+      }
+    },
+    {
+      "index_number": 142,
+      "type": "icon",
+      "content": "a progress indicator.",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.14832553267478943,
+        0.6169407963752747,
+        0.16371531784534454,
+        0.6659358143806458
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.148326,
+          "y1": 0.616941,
+          "x2": 0.163715,
+          "y2": 0.665936,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 480.57,
+          "y1": 1332.59,
+          "x2": 530.44,
+          "y2": 1438.42,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 505.51,
+          "y": 1385.51
+        },
+        "size": {
+          "width": 49.86,
+          "height": 105.83,
+          "area": 5276.95
+        }
+      }
+    },
+    {
+      "index_number": 143,
+      "type": "icon",
+      "content": "a checkbox.",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.9907132387161255,
+        0.08174780011177063,
+        1.0,
+        0.19193539023399353
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.990713,
+          "y1": 0.081748,
+          "x2": 1.0,
+          "y2": 0.191935,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 3209.91,
+          "y1": 176.58,
+          "x2": 3240.0,
+          "y2": 414.58,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 3224.96,
+          "y": 295.58
+        },
+        "size": {
+          "width": 30.09,
+          "height": 238.01,
+          "area": 7161.36
+        }
+      }
+    },
+    {
+      "index_number": 144,
+      "type": "icon",
+      "content": "Line",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.25400832295417786,
+        0.5620276927947998,
+        0.36210232973098755,
+        0.5903615951538086
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.254008,
+          "y1": 0.562028,
+          "x2": 0.362102,
+          "y2": 0.590362,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 822.99,
+          "y1": 1213.98,
+          "x2": 1173.21,
+          "y2": 1275.18,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 998.1,
+          "y": 1244.58
+        },
+        "size": {
+          "width": 350.22,
+          "height": 61.2,
+          "area": 21434.17
+        }
+      }
+    },
+    {
+      "index_number": 145,
+      "type": "icon",
+      "content": "M0,0L9,0 4.5,5z",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        2.0045041310368106e-05,
+        0.00014820322394371033,
+        0.005622202064841986,
+        0.03152180090546608
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 2e-05,
+          "y1": 0.000148,
+          "x2": 0.005622,
+          "y2": 0.031522,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 0.06,
+          "y1": 0.32,
+          "x2": 18.22,
+          "y2": 68.09,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 9.14,
+          "y": 34.2
+        },
+        "size": {
+          "width": 18.15,
+          "height": 67.77,
+          "area": 1230.04
+        }
+      }
+    },
+    {
+      "index_number": 146,
+      "type": "icon",
+      "content": "Formatting Marks",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.33898094296455383,
+        0.9417229890823364,
+        0.3519512712955475,
+        0.9603856801986694
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.338981,
+          "y1": 0.941723,
+          "x2": 0.351951,
+          "y2": 0.960386,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1098.3,
+          "y1": 2034.12,
+          "x2": 1140.32,
+          "y2": 2074.43,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1119.31,
+          "y": 2054.28
+        },
+        "size": {
+          "width": 42.02,
+          "height": 40.31,
+          "area": 1694.04
+        }
+      }
+    },
+    {
+      "index_number": 147,
+      "type": "icon",
+      "content": "System",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.007879341952502728,
+        0.0013339899014681578,
+        0.02365107648074627,
+        0.02986210398375988
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.007879,
+          "y1": 0.001334,
+          "x2": 0.023651,
+          "y2": 0.029862,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 25.53,
+          "y1": 2.88,
+          "x2": 76.63,
+          "y2": 64.5,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 51.08,
+          "y": 33.69
+        },
+        "size": {
+          "width": 51.1,
+          "height": 61.62,
+          "area": 3148.84
+        }
+      }
+    },
+    {
+      "index_number": 148,
+      "type": "icon",
+      "content": "Line",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.366730272769928,
+        0.5436056852340698,
+        0.4554612636566162,
+        0.5886691212654114
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.36673,
+          "y1": 0.543606,
+          "x2": 0.455461,
+          "y2": 0.588669,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1188.21,
+          "y1": 1174.19,
+          "x2": 1475.69,
+          "y2": 1271.53,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1331.95,
+          "y": 1222.86
+        },
+        "size": {
+          "width": 287.49,
+          "height": 97.34,
+          "area": 27983.27
+        }
+      }
+    },
+    {
+      "index_number": 149,
+      "type": "icon",
+      "content": "M0,0L9,0 4.5,5z",
+      "interactivity": true,
+      "source": "box_yolo_content_yolo",
+      "bbox": [
+        0.457964152097702,
+        0.7327441573143005,
+        0.4852800667285919,
+        0.7527069449424744
+      ],
+      "coordinates": {
+        "normalized": {
+          "x1": 0.457964,
+          "y1": 0.732744,
+          "x2": 0.48528,
+          "y2": 0.752707,
+          "format": "xyxy"
+        },
+        "pixels": {
+          "x1": 1483.8,
+          "y1": 1582.73,
+          "x2": 1572.31,
+          "y2": 1625.85,
+          "format": "xyxy"
+        },
+        "center": {
+          "x": 1528.06,
+          "y": 1604.29
+        },
+        "size": {
+          "width": 88.5,
+          "height": 43.12,
+          "area": 3816.24
+        }
+      }
+    }
+  ],
+  "ocr_text": [
+    "GNew Tab",
+    "0 today's price of microsoft - Goog",
+    "+",
+    "google.com/search?q=today%27s+price+of+microsoft&rIz=1C1CHBF_enUS964US964&oq=today%27s+price+of+microsoft&gs_Icrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEEUY...",
+    "+",
+    "Google",
+    "O",
+    " today's price of microsoft",
+    "X",
+    "3",
+    "Finance",
+    "NeWS",
+    "Shopping",
+    "Images",
+    "Videos",
+    "All filters",
+    "Tools",
+    "SafeSearch ",
+    "In usd",
+    "Stock forecast",
+    "Prediction",
+    "Perspectives",
+    "Microsoft Corp",
+    "Overview",
+    "Compare",
+    "Financials",
+    "NASDAQ: MSFT:",
+    "Market Summary > Microsoft Corp",
+    "Explore more",
+    "373.04 USD",
+    "+ Follow",
+    "Following",
+    "Related",
+    "+2.09 (0.56%) + today",
+    "Apple Inc",
+    "Closed: Dec 8, 7:59 PM EST : Disclaimer",
+    " 0.74%",
+    "195.71USD",
+    "After hours 373.93 +0.89 (0.24%)",
+    "5D1M~ 6M~YTD~1Y~ 5Y~ Max",
+    "1D",
+    "Amazon.com Inc",
+    " 0.37%",
+    "147.42 USD",
+    "376",
+    " Intel Corporation",
+    " 1.30%",
+    " 374",
+    "42.7O USD",
+    "NVIDIA Corp",
+    "372",
+    "Previous",
+    " 1.95%",
+    "475.06 USD",
+    "close",
+    "370.95",
+    "370",
+    "Disclaimer",
+    "368",
+    "About",
+    "Open",
+    " 369.20",
+    "Mkt cap",
+    "2.77T",
+    "CDP. sCore",
+    "A",
+    "O microsoft.com",
+    " High",
+    "374.46",
+    "P/E ratio",
+    " 36.12",
+    "52-wk high",
+    " 384.30",
+    "Div yield",
+    "0.80%",
+    "52-wk low",
+    "219.35",
+    "LoW",
+    " 368.23",
+    "Microsoft Corporation is an American multinational",
+    " technology corporation headquartered in Redmond,",
+    "Feedack",
+    "Washington. Microsoft's best-known software products are",
+    "More about Microsoft Corp>",
+    "the Windows line of operating systems, the Microsoft 365",
+    "suite of productivity applications, and the Edge web",
+    "browser. Wikipedia",
+    "NeWS :",
+    "CEO: Satya Nadella (Feb 4, 2014-)",
+    "UK watchdog to examine Microsoft's OpenAl partnership >",
+    "Founded: April 4, 1975, Albuquerque, NM",
+    "Waiting for www.google.com..",
+    "Founders: Rill Ga",
+    "aul A",
+    "Q Search",
+    "11:28 AM",
+    "N",
+    "X",
+    "ENG",
+    "12/9/2023"
+  ],
+  "image_semantics": {
+    "raw": "Microsoft Corp"
+  }
+}

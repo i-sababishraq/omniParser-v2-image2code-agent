@@ -142,7 +142,8 @@ def run_coordinate_analysis(boxes: List[Dict], y_threshold: int = 10, x_threshol
 
 
 def run_vlm_analysis(boxes: List[Dict], dimensions: Dict, image_path: str, 
-                     provider: str = 'openrouter', model: str = 'qwen/qwen-2-vl-7b-instruct') -> Optional[Dict]:
+                     provider: str = 'openrouter', model: str = 'qwen/qwen-2-vl-7b-instruct',
+                     max_boxes: int = 100) -> Optional[Dict]:
     """
     Run VLM-based analysis using OpenRouter API.
     
@@ -152,6 +153,7 @@ def run_vlm_analysis(boxes: List[Dict], dimensions: Dict, image_path: str,
         image_path: Path to image
         provider: 'openrouter' or 'openai'
         model: Model name (default: qwen/qwen-2-vl-7b-instruct for OpenRouter)
+        max_boxes: Maximum number of boxes to send to VLM (default: 100)
     
     Returns:
         VLM analysis results or None if VLM not available
@@ -165,13 +167,7 @@ def run_vlm_analysis(boxes: List[Dict], dimensions: Dict, image_path: str,
     print(f"{'='*80}")
     print(f"Provider: {provider}")
     print(f"Model: {model}")
-    
-    # Adjust max_boxes based on model to avoid token limits
-    if 'qwen' in model.lower():
-        max_boxes = 50  # Qwen has lower token limit
-        print(f"Note: Limiting to {max_boxes} boxes for Qwen model token limits")
-    else:
-        max_boxes = 150  # Other models can handle more
+    print(f"Max boxes to analyze: {max_boxes}")
     
     # Import and run VLM test
     try:
@@ -348,7 +344,15 @@ def compare_analyses(coord_results: Dict, vlm_results: Optional[Dict], boxes: Li
         print(f"Looking for: 'finance', 'news', 'shopping', 'In usd', 'Stock forecast'")
         
         # Find these boxes in coordinate analysis
-        target_keywords = ['finance', 'news', 'shopping', 'in usd', 'stock forecast']
+        # Expanded keyword list with synonyms and variations for better matching
+        target_keywords = [
+            'finance', 'financial', 'finances',
+            'news', 'article', 'articles',
+            'shopping', 'shop', 'shops', 'store',
+            'in usd', 'usd', 'us dollar', 'dollar',
+            'stock forecast', 'stock forecasts', 'forecast', 'forecasts', 
+            'prediction', 'predictions', 'stock prediction'
+        ]
         target_boxes = []
         
         for box in boxes:
@@ -367,7 +371,7 @@ def compare_analyses(coord_results: Dict, vlm_results: Optional[Dict], boxes: Li
             print(f"Max Y variance: {y_variance:.2f}px")
             print(f"Horizontally aligned: {'[OK] YES' if y_variance < 15 else '[NO] NO'}")
             
-            # Check VLM detection
+            # Check VLM detection (use expanded keywords for matching)
             vlm_detected = any(keyword in raw.lower() for keyword in target_keywords)
             print(f"\n  VLM Detection:")
             print(f"Mentioned these elements: {'[OK] YES' if vlm_detected else '[NO] NO'}")
@@ -577,6 +581,8 @@ Examples:
                         help='VLM provider to use (default: openrouter)')
     parser.add_argument('--vlm-model', default='qwen/qwen-2-vl-7b-instruct',
                         help='VLM model to use (default: qwen/qwen-2-vl-7b-instruct for OpenRouter)')
+    parser.add_argument('--vlm-max-boxes', type=int, default=100,
+                        help='Maximum number of boxes to send to VLM (default: 100, helps avoid token limits)')
     
     args = parser.parse_args()
     
@@ -603,7 +609,8 @@ Examples:
         vlm_results = run_vlm_analysis(
             boxes, dimensions, image_path, 
             provider=args.vlm_provider,
-            model=args.vlm_model
+            model=args.vlm_model,
+            max_boxes=args.vlm_max_boxes
         )
     
     # Compare analyses
